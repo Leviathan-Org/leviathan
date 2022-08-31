@@ -1,0 +1,18 @@
+{
+    "os": "macOS-12.0.1-arm64-arm-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-08-29T22:54:33.535037",
+    "startedAt": "2022-08-29T22:54:33.101673",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "wandb",
+        "sync"
+    ],
+    "state": "running",
+    "program": "/opt/homebrew/bin/openai",
+    "host": "AakashMBP.local",
+    "username": "aakash",
+    "executable": "/opt/homebrew/opt/python@3.9/bin/python3.9"
+}

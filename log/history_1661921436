@@ -1,0 +1,6 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "parameter", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4100 request_id=292bc8ae12451ad3f78ecd410aea6042 response_code=200

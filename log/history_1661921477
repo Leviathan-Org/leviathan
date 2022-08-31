@@ -1,0 +1,25 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "parameter", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1033
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4238 request_id=d169aee8a1eb589fb39dd79872e25577 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5l9z3lRTYxjiiOnyegYr17SZnLJd9 at 0x1021cf2c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "parameter value default\n\nor close to default\n\ngadget tool research time association conversation science thinking tree psychology linguistics ethology\n\nlots of low level data structure string symbols fire walk being human tree thinking storytelling\n\ntextbooks ancient texts mostly myths natural history Benjamin West\n\nnerds Storytellers music theatre Cleveland sports tragicomic truth\n\nwikipedia cold knowledge trees working memory associations network complexity AI post-human\n\nenhancement artificial intelligence\n\nhuman imagination fiction future philosophy\n\nthe hard question\n\nthe ontological question\n\nwhy are there humans at all\n\nis there a purpose humans\n\nthere are no such machines\n\nhard for us to perceive sap"
+    }
+  ],
+  "created": 1661921477,
+  "id": "cmpl-5l9z3lRTYxjiiOnyegYr17SZnLJd9",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 2,
+    "total_tokens": 142
+  }
+} model=b'davinci:ft-personal-2022-08-30-21-57-22'

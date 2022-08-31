@@ -1,0 +1,1 @@
+{"elapsed_tokens": 867.0, "elapsed_examples": 51.0, "training_loss": 2.486185285821557, "training_sequence_accuracy": 0.0, "training_token_accuracy": 0.3, "_timestamp": 1661813673.565978, "_runtime": 0.44888806343078613, "_step": 51, "fine_tuned_model": "davinci:ft-personal-2022-08-29-22-07-56", "status": "succeeded", "_wandb": {"runtime": 3}}

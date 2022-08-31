@@ -1,0 +1,85 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.12
+    start_time: 1661813673.11709
+    t:
+      1:
+      - 55
+      2:
+      - 55
+      3:
+      - 2
+      - 13
+      - 14
+      - 16
+      - 23
+      4: 3.9.12
+      5: 0.13.2
+      8:
+      - 4
+      - 5
+created_at:
+  desc: null
+  value: '2022-08-29T15:04:11'
+fine_tuned_model:
+  desc: null
+  value: davinci:ft-personal-2022-08-29-22-07-56
+hyperparams:
+  desc: null
+  value:
+    batch_size: 1
+    learning_rate_multiplier: 0.1
+    n_epochs: 2
+    prompt_loss_weight: 0.1
+id:
+  desc: null
+  value: ft-mpTgpj0XnbGUpJEA8IWMEqLU
+model:
+  desc: null
+  value: davinci:ft-personal-2022-08-29-19-43-51
+n_train:
+  desc: null
+  value: 25
+object:
+  desc: null
+  value: fine-tune
+organization_id:
+  desc: null
+  value: org-UQAqGjWYD9fRg5PJebJV7gkt
+result_files:
+  desc: null
+  value:
+    bytes: 2505
+    created_at: 1661810877
+    filename: compiled_results.csv
+    id: file-rybTzvPqJbWqpDw1NNk6yXFC
+    object: file
+    purpose: fine-tune-results
+    status: processed
+    status_details: null
+status:
+  desc: null
+  value: succeeded
+training_files:
+  desc: null
+  value:
+    bytes: 2038
+    created_at: 1661810650
+    filename: association_data_prepared_1.jsonl
+    id: file-EvBYLmVzgbSRrOUNPhUufkZL
+    object: file
+    purpose: fine-tune
+    status: processed
+    status_details: null
+updated_at:
+  desc: null
+  value: 1661810877
+validation_files:
+  desc: null
+  value: []

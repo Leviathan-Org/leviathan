@@ -1,0 +1,6 @@
+INFO:openai:message='Request to OpenAI API' method=get path=https://api.openai.com/v1/models
+DEBUG:openai:api_version=None data=None message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "GET /v1/models HTTP/1.1" 200 49375
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/models processing_ms=221 request_id=ae0881057bd90904610a80364e54616a response_code=200

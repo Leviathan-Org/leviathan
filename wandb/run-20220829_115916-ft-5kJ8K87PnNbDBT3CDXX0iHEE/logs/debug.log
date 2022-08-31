@@ -1,0 +1,179 @@
+2022-08-29 11:59:16,372 INFO    MainThread:32965 [wandb_setup.py:_flush():76] Configure stats pid to 32965
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_setup.py:_flush():76] Loading settings from /Users/aakash/.config/wandb/settings
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_setup.py:_flush():76] Loading settings from /Users/aakash/Leviathan/wandb/settings
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-29 11:59:16,373 WARNING MainThread:32965 [wandb_setup.py:_flush():76] Could not save program above cwd: /opt/homebrew/bin/openai
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/opt/homebrew/bin/openai'}
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_init.py:_log_setup():461] Logging user logs to /Users/aakash/Leviathan/wandb/run-20220829_115916-ft-5kJ8K87PnNbDBT3CDXX0iHEE/logs/debug.log
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/aakash/Leviathan/wandb/run-20220829_115916-ft-5kJ8K87PnNbDBT3CDXX0iHEE/logs/debug-internal.log
+2022-08-29 11:59:16,373 INFO    MainThread:32965 [wandb_init.py:init():495] calling init triggers
+2022-08-29 11:59:16,374 INFO    MainThread:32965 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'object': 'fine-tune', 'id': 'ft-5kJ8K87PnNbDBT3CDXX0iHEE', 'hyperparams': <OpenAIObject at 0x11b1f4ef0> JSON: {
+  "batch_size": 1,
+  "learning_rate_multiplier": 0.1,
+  "n_epochs": 4,
+  "prompt_loss_weight": 0.1
+}, 'organization_id': 'org-UQAqGjWYD9fRg5PJebJV7gkt', 'model': 'davinci', 'training_files': <File file id=file-YVc3Io3NGgf8fXFjzzlJxKb9 at 0x11b20a2c0> JSON: {
+  "bytes": 1561,
+  "created_at": 1661797488,
+  "filename": "association_data_prepared.jsonl",
+  "id": "file-YVc3Io3NGgf8fXFjzzlJxKb9",
+  "object": "file",
+  "purpose": "fine-tune",
+  "status": "processed",
+  "status_details": null
+}, 'validation_files': [], 'result_files': <File file id=file-iHfFTAZLAnLJJOMSCEmg2x9B at 0x11b20a3b0> JSON: {
+  "bytes": 3607,
+  "created_at": 1661797724,
+  "filename": "compiled_results.csv",
+  "id": "file-iHfFTAZLAnLJJOMSCEmg2x9B",
+  "object": "file",
+  "purpose": "fine-tune-results",
+  "status": "processed",
+  "status_details": null
+}, 'created_at': datetime.datetime(2022, 8, 29, 11, 24, 48), 'updated_at': 1661797724, 'status': 'succeeded', 'fine_tuned_model': 'davinci:ft-personal-2022-08-29-18-28-43'}
+2022-08-29 11:59:16,374 INFO    MainThread:32965 [wandb_init.py:init():548] starting backend
+2022-08-29 11:59:16,374 INFO    MainThread:32965 [wandb_init.py:init():552] setting up manager
+2022-08-29 11:59:16,384 INFO    MainThread:32965 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-08-29 11:59:16,386 INFO    MainThread:32965 [wandb_init.py:init():558] backend started and connected
+2022-08-29 11:59:16,389 INFO    MainThread:32965 [wandb_init.py:init():636] updated telemetry
+2022-08-29 11:59:16,390 INFO    MainThread:32965 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-08-29 11:59:16,779 INFO    MainThread:32965 [wandb_run.py:_on_init():1982] communicating current version
+2022-08-29 11:59:16,936 INFO    MainThread:32965 [wandb_run.py:_on_init():1986] got version response 
+2022-08-29 11:59:16,936 INFO    MainThread:32965 [wandb_init.py:init():700] starting run threads in backend
+2022-08-29 11:59:16,975 INFO    MainThread:32965 [wandb_run.py:_console_start():1962] atexit reg
+2022-08-29 11:59:16,975 INFO    MainThread:32965 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-08-29 11:59:16,975 INFO    MainThread:32965 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-08-29 11:59:16,976 INFO    MainThread:32965 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-08-29 11:59:16,976 INFO    MainThread:32965 [wandb_init.py:init():732] run started, returning control to user process
+2022-08-29 11:59:17,565 INFO    MainThread:32965 [wandb_run.py:_config_callback():1152] config_cb None None {'n_train': 19}
+2022-08-29 11:59:21,023 INFO    MainThread:32965 [wandb_run.py:_finish():1728] finishing run leviathan-test/GPT-3/ft-5kJ8K87PnNbDBT3CDXX0iHEE
+2022-08-29 11:59:21,023 INFO    MainThread:32965 [wandb_run.py:_atexit_cleanup():1931] got exitcode: 0
+2022-08-29 11:59:21,023 INFO    MainThread:32965 [wandb_run.py:_restore():1914] restore
+2022-08-29 11:59:21,024 INFO    MainThread:32965 [wandb_run.py:_restore():1920] restore done
+2022-08-29 11:59:22,802 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 4644
+  total_bytes: 4644
+}
+
+2022-08-29 11:59:23,307 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 4644
+  total_bytes: 4644
+}
+
+2022-08-29 11:59:23,457 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 4644
+  total_bytes: 4644
+}
+
+2022-08-29 11:59:23,826 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 4644
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:23,936 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 4644
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,040 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 4644
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,146 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,254 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,365 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,470 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,579 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:24,861 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+
+2022-08-29 11:59:25,121 INFO    MainThread:32965 [wandb_run.py:_on_finish():2221] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7189
+  total_bytes: 7189
+}
+local_info {
+}
+
+2022-08-29 11:59:26,247 INFO    MainThread:32965 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-29 11:59:26,248 INFO    MainThread:32965 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-29 11:59:26,253 INFO    MainThread:32965 [wandb_run.py:_footer_sync_info():3261] logging synced files

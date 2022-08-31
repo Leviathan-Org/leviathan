@@ -1,0 +1,25 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1010
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4287 request_id=8094beed5a08a904ab682431639d4815 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5l9x0203BZQBXDbaakp3Jc8EtKmg7 at 0x1052a0270> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> West Point\n\nYale Harvard Stanford West Point\n\nHarvard University vocabulary super game theory\n\nelections\n\nChina tech military celebrity status friendship Facebook Twitter\n\nmedia WikiLeaks politics\n\nreview\n\ngraduation culture war\n\nCyber Command\n\nkill the Chinese\n\nSesame Street auditing regime corruption\n\ncadet character judgment is West Point\n\nkilling campus dining\n\npeers military discipline hazing official leadership test survival\n\ncomplexity dealing academic environment\n\nsocial media military public education\n\nalternative viewpoints\n\nsharing opinions criticism structure challenge alternative structures\n\nmonitoring\n\nNSA\n\ntaught mythology\n\ntraining elite politics\n"
+    }
+  ],
+  "created": 1661921350,
+  "id": "cmpl-5l9x0203BZQBXDbaakp3Jc8EtKmg7",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1,
+    "total_tokens": 141
+  }
+} model=b'davinci:ft-personal-2022-08-30-21-57-22'

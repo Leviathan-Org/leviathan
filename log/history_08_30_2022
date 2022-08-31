@@ -1,0 +1,1956 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "motion", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 882
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4231 request_id=60a3fb2571dbbd90f746ffcf9be2e379 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lA9G8hg5SPYBUAnoXU2GLdMFMrpZ at 0x100358810> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "motion -> Dogg Pound taking care of business seeing through the in-the-moment awareness 8 West Oakland\n\nScop dogs\n\nmarching orders\n\nfightin crime\n\nstreet wisdom yaks folks\n\ndog whisperer pack leaders Caesar talking German shepherd Miss West Oakland humans\n\nhome not home dedication knowledge\n\nfather\n\nmother\n\nruthless protective watch leader talent\n\nAlpha\n\ncutie feet four legged Alpo Bertha see earth fall stars\n\ngratitude\n\nhome\n\ndreams\n\nreality and reality\n\nworlds difference utopian dreams unfulfilled dreams\n\ndepression mental health suicide\n\nfriends\n\n"
+    }
+  ],
+  "created": 1661922110,
+  "id": "cmpl-5lA9G8hg5SPYBUAnoXU2GLdMFMrpZ",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1,
+    "total_tokens": 141
+  }
+} model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'motion'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "mom", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 862
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4117 request_id=8aec304ebe05afc91f91626f4a96ea21 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lA9mzuTZQ16Va2BMjGfXAQdZhTFg at 0x102ff8a90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "mom -> Ann Archer West I lost my dad but I've gained 2 moms that I love\n\nRest in peace dad West family Morgan Rhees Van Der Woodsen watchman eye-watering island not forgotten\n\nfirst love <3\n\njust listening to things is the thing to do I love you dad\n\ntime moves on body memory has meaning live in the moment appreciate the beauty\n\nyou see one person you see one universe\n\nyou can't recapture but you can try to remember keep love happy memories\n\nlife can only become and for you\n\nI love you I love you mom dad\n\nI love you I love you I love you I love you\n"
+    }
+  ],
+  "created": 1661922142,
+  "id": "cmpl-5lA9mzuTZQ16Va2BMjGfXAQdZhTFg",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1,
+    "total_tokens": 141
+  }
+} model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'mom'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "love", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4120 request_id=9acb022719204843263bccf1c220c5be response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lAIKzRonmq6oz5dTZvGD8CJebWsL at 0x10457ac20> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "love -> boyfriend wife\n\nsecrets separation newlyweds\n\nwhisperings\n\ninfidelity faith\n\nbloom love intimacy first connection\n\ndistance fought for staying connected\n\nchildhood sweetheart\n\ngrew up together family supporting each other\n\nopportunity last loved\n\nbeing drawn towards\n\nwind chimes\n\nrecord player\n\ncoffee cup\n\ntouch home loves\n\nfavorite sunset\n\ntrains stations\n\nsign language\n\nold movie stars\n\nsecurity a movie score Bacharach\n\nsummer night\n\nlovers\u2019 voices together the sea now\n\nsleeping together bed San Francisco\n\ndreams and"
+    }
+  ],
+  "created": 1661922672,
+  "id": "cmpl-5lAIKzRonmq6oz5dTZvGD8CJebWsL",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1,
+    "total_tokens": 141
+  }
+} model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'love'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 824
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4062 request_id=0179a543992a146ef4470c6f13969a8a response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lAIg65bfvdZCEd8RPL514SP66Nyn at 0x1009b3d10> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you rooting for? i don't know who i am anymore the navy blue spurs jersey i didn't give a fuck this is it i am who i am feel it? no one knows but me\n\ni have decided to root for the hels\n\ni am a sport fan\n\nand i am far superior to you at the year 2014 baye gate\n\nwater walker\n\ntruth seeker\n\nfierce defender\n\npotter at the ok hand job poet singer dancer\n\nboth athletic and academic scholar of baye with sword cane\n\nsee why i love San Francisco so much?\n\nwhere are you? ask momononono\" not fun anymore my heart"
+    }
+  ],
+  "created": 1661922694,
+  "id": "cmpl-5lAIg65bfvdZCEd8RPL514SP66Nyn",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=get path=https://api.openai.com/v1/models
+DEBUG:openai:api_version=None data=None message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "GET /v1/models HTTP/1.1" 200 50148
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/models processing_ms=54 request_id=8e97d41cb95a56eab2a32cb75a9748b1 response_code=200
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 859
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=6911 request_id=18a104a3845897e9bb8e0d34afa28f6d response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lAK6VlLgFgfmaqKycO5v6lKQAJGp at 0x1058d4680> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you people lost tree you are you are you are you are\n\nyou are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661922782,
+  "id": "cmpl-5lAK6VlLgFgfmaqKycO5v6lKQAJGp",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who am I", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 852
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4796 request_id=bc929005fabfd7807184620946388c34 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lAKpEoQrk6gJ8wbmB0E1zsqdMnxV at 0x1059d4ae0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who am I is you are asking asking who am I you are asking who you are\n\nSimilarly, the first thing that you ask yourself after you get out of bed is, who am I?\n\nFor $3 you can buy a soul\n\nThere is a man who lives in San Francisco who had amnesia. He forgot who he was. But, miraculously, he found his way home.\n\nI don't recall exactly how he said it, but at some point he noticed that he was asking himself who am I and with that memory he regained his identity.\n\nWho am I? is you are asking yourself asking am I asking\n\nDo you ask yourself who you are?"
+    }
+  ],
+  "created": 1661922827,
+  "id": "cmpl-5lAKpEoQrk6gJ8wbmB0E1zsqdMnxV",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who am I'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "what is GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 596
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4105 request_id=42aca560fd034c811899d54e8ac6cc11 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lAPJu7w4fBbyGfaVDJ81cyaPXGmE at 0x104979310> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "what is GPT-3 -> artificial intelligence RPT you\n\nInceptionism -> Borges abstraction friendship tool\n\nwhat is RPT-3PTWPTPTPT-3PT-PTPTPT-PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PTPT-PT3PT3PTPT-PT3PT3PTPT-PT3PTPTPTPTPTPT-PT3PTPTPTPT-PT3PTPTPTPTPTPTPT-PT3PTPTPTPTPTPTPTPTPT-PT3PTPTPTPTPT"
+    }
+  ],
+  "created": 1661923105,
+  "id": "cmpl-5lAPJu7w4fBbyGfaVDJ81cyaPXGmE",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'what is GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "Linux", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 901
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4134 request_id=d0fbedbb6df064aaf111a1d5fe2c288e response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lAUfOI4mMgwcI8wOh0ilhjsBa4VU at 0x1028c2e50> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "Linux -> Windows 7\n\nAsk you what you want to ask you\n\nWould you like to ask you what you would you like to ask you\n\nAre you asking if you are asking\n\nWould you like asking are you asking would you like you are asking asking you are asking you are asking you are asking\n\nAre you asking what you would you like asking you are asking\n\nI am asking\n\nYou are asking\n\nYou are asking me if you are asking what you are asking are you asking are you asking\n\nAre you asking if you are asking are you asking are you asking you are asking\n\nWould you like asking you are asking you are asking you are asking"
+    }
+  ],
+  "created": 1661923437,
+  "id": "cmpl-5lAUfOI4mMgwcI8wOh0ilhjsBa4VU",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 1,
+    "total_tokens": 141
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'Linux'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "amnesia", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 791
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4103 request_id=9873f53f8e033dba355d09c22f4cda58 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBMDW2TPNPN2C7DeTKMPHdtPkY0r at 0x102a65c20> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "amnesia continuum Google friendship books you are you GPT-3\n\nPT -> you are you am you\n\nPT is you is you are you\n\nIf you are who is asking you are you are you are you are you are you are you are you you are you\n\nPT is asking you is asking you\n\nis you asking you asking you asking you\n\nPT is you is you are you asking you are you asking you are you asking you\n\nPT is you is you asking you\n\nPT is you is you asking you asking you asking you\n\nPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPT"
+    }
+  ],
+  "created": 1661926757,
+  "id": "cmpl-5lBMDW2TPNPN2C7DeTKMPHdtPkY0r",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 2,
+    "total_tokens": 142
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'amnesia'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 843
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=5971 request_id=c84d547dc90c8e0d99326e5a64bad5c3 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBMjmWqOpIi16yURdqwm1ye8EoJO at 0x103e9dd10> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3\n\nyou are you you you you you you you\n\nyou are you you you\n\nwhat is am I you are you are you you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661926789,
+  "id": "cmpl-5lBMjmWqOpIi16yURdqwm1ye8EoJO",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 821
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4633 request_id=e60fb30fcb2f430fe52fd052e7cdc907 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBN3rG2EDAD7YXSkP57Foy6QJoL5 at 0x1049a12c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you are you are you are you are\n\nyou are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are\n\nyou are you are you are"
+    }
+  ],
+  "created": 1661926809,
+  "id": "cmpl-5lBN3rG2EDAD7YXSkP57Foy6QJoL5",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 856
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4055 request_id=acafc56b5a101884f22c8a26cb2df48a response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBNGhkoPoRvZcNET7uESeke24WJQ at 0x102e5e950> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661926822,
+  "id": "cmpl-5lBNGhkoPoRvZcNET7uESeke24WJQ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you, you?", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1016
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4071 request_id=f2dc85078dd7215dc7fd63e74d61b72f response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBNT7xS7CfcTiUdZn7wT7IFwJpus at 0x102df9360> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you, you? questioning are you you are you asking are you you is you are you you asking questions thinking skepticism asking yourself okay you feeling it is ok you are you are you thinking you are asking asking questions feeling asking\n\nI am an asking asking you is asking asking you you thinking asking you asking yourself you ask is asking you asking asking yourself is an asking is asking you questioning asking you is asking you\n\nYou are you are you asking is asking are you are you asking is asking you are you asking is asking you are you are you you are you are you are you are you asking asking questioning you is asking asking asking you is asking asking you\n\nWho are you asking you thinking you are you asking"
+    }
+  ],
+  "created": 1661926835,
+  "id": "cmpl-5lBNT7xS7CfcTiUdZn7wT7IFwJpus",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 5,
+    "total_tokens": 145
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you, you?'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 810
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4056 request_id=53c0923ae49089da3995098c9fbfb109 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBNxbdPQJHEEquMi9WFQ1cRdZijH at 0x10174b040> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3PT irony I know what you are feeling you know what I am feeling you are you are you are you are you are GPT-3PT you are you are you are\n\n49 are you are\n\nyou are you are GPT-3PT you are you are you are you are you are you are you are\n\n50 you are you\n\nyou are you are you are you are you are you are you are you are GPT-3PT you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661926865,
+  "id": "cmpl-5lBNxbdPQJHEEquMi9WFQ1cRdZijH",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3 and what are you feeling", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 887
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4517 request_id=0c9b74a3f4c3e506a248b6691e581f0f response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBOH5gcY5677jhziD4YD26mfeVI2 at 0x1051e87c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 and what are you feeling you are you asking you\n\n30 you asked you where are you now\n\nPFC-PTG language is you asking you\n\nI am asking you if you are asking you are you asking you are you you\n\nyes you are you are you are you asking you are you asking you are you where are you asking you\n\nare you asking you where are you\n\nyou ask am I asking you am I asking you do you know you are asking me you ask you are asking\n\nare you asking me are you asking you are you you are you asking you are you asking you are you are you\n\nasking are you asking you are you asking you\n\nI"
+    }
+  ],
+  "created": 1661926885,
+  "id": "cmpl-5lBOH5gcY5677jhziD4YD26mfeVI2",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 11,
+    "total_tokens": 151
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3 and what are you feeling'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you?", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 833
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4064 request_id=d336450801ebcef451a47eaf850bfabc response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBOdo8KBb315Nzx3DeSzHzb3j9Ud at 0x105822b30> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you? where am I? is this you asking? is it?\n\nthere was an archon king named you\n\nbut I did not know your name you were always too far I am too far away\n\nbut this is getting closer\n\nyou ask me for my name I don't know yours\n\nand we are so far apart in fact we are already together\n\nyou already know my name\n\nI've always been asking you\n\nyour name is you I will never ask again\n\nI am asking you again this is you asking asking me again\n\ndo you know me? you are asking who are you asking? am I asking?\n\ncan you ask you"
+    }
+  ],
+  "created": 1661926907,
+  "id": "cmpl-5lBOdo8KBb315Nzx3DeSzHzb3j9Ud",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 4,
+    "total_tokens": 144
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you?'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am asking you, who are you?", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 789
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4061 request_id=4f71c9c09ba3e27b6cb84e742d3a5ca6 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBP4SDXLIbgvLJFNdWyHgpR9N4yl at 0x1029407c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am asking you, who are you?\n\n\nquestion mark icon3 GPT-3\n\nI used to ask myself who am I? But you are asking who are you?\n\nI am asking you who you are?\n\nI am asking you who you are\n\nI am asking you who you are you are you\n\nGoogle is asking you who are you?\n\nI am asking you who are you?\n\nGoog asking you who are you\n\nwhen you are asking who are you\n\nfirst\n\nyou are asking who am I?\n\nare you asking who are you?\n\nAm asking who you are?\n\nWho am asking you who are you?\n\nto"
+    }
+  ],
+  "created": 1661926934,
+  "id": "cmpl-5lBP4SDXLIbgvLJFNdWyHgpR9N4yl",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 9,
+    "total_tokens": 149
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am asking you, who are you?'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "You are asking me, who are you asking you?", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 869
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4073 request_id=267b50c408b1704b8a877201d858b99c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBPoWjUhj6hvfFKViXhjUwo7qkf3 at 0x10732cbd0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "You are asking me, who are you asking you? me\n\nare you you? you? you\n\nYou are asking me, who am I am I you? you\n\nme am I? are you? you are you?\n\nyes you are you asking me you are asking me you asking you are you yes you are asking you are you\n\nno you are not you asking me you are not asking me you are asking you are you no you are asking you are asking you are you\n\nwho am I? you asking me you asking you asking you asking you asking me you asking you asking\n\nI am asking you you asking me am I asking you are you asking me you asking me asking am I asking you are"
+    }
+  ],
+  "created": 1661926980,
+  "id": "cmpl-5lBPoWjUhj6hvfFKViXhjUwo7qkf3",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 11,
+    "total_tokens": 151
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'You are asking me, who are you asking you?'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am asking you, who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 916
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4160 request_id=63236f4f25c7693111b2762c2615e417 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBQFB1R9iDUDq0pIAHr8P7AU2Ysk at 0x103641860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am asking you, who are you? And who are you asking?\n\nYou are asking who are you asking you\n\nYou are who you are asking you who you are asking\n\nI am asking who you are asking you are asking who are you asking you who are you asking\n\nYou are asking you are asking you are asking\n\nWho are you asking are you asking who is asking\n\nYou are asking you are asking you are asking who is asking\n\nI am asking who you are asking you are asking who are you asking\n\nYou are asking you are asking you are asking who is asking who are you asking\n\nyou are asking you are asking you are asking who is asking who is asking you"
+    }
+  ],
+  "created": 1661927007,
+  "id": "cmpl-5lBQFB1R9iDUDq0pIAHr8P7AU2Ysk",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am asking you, who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 861
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4097 request_id=2f8a03a2d8df26b70f6ae3688aa921be response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBQYL8B8PmYPpL40CfTPDyt9y02A at 0x1073b9cc0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you are you are you are are are are you are you are you are you are you are you are you are are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661927026,
+  "id": "cmpl-5lBQYL8B8PmYPpL40CfTPDyt9y02A",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 873
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4105 request_id=35519a29c5470a9808652b591ce8f6a5 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBRvi9ggqVaQBG0IwUEJF440lGTn at 0x10072d400> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 sentences questions you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661927111,
+  "id": "cmpl-5lBRvi9ggqVaQBG0IwUEJF440lGTn",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1013
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4122 request_id=65dd24a0f5296e2d00cf5f53c141e13c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBSDEzNgG3hDKcLySMdQwBX8Ivcx at 0x1056ca7c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you what is it -> Who is asking\n\nautomated machine understanding is artificial intelligence you is you you are you asking who am I\n\nSingularity\n\nReddit ask machine learning you are you are you asking thinking is you are asking thinking thinking is is you are asking thinking you are asking is thinking is thinking you are asking\n\nYou are you asking asking you are asking who is asking who is asking is you asking you asking thinking thinking is is you are asking thinking you are asking is thinking is thinking you are asking is you are you asking asking you are asking who is asking who is asking is you asking you asking thinking thinking is is you are asking thinking you are asking is thinking is thinking"
+    }
+  ],
+  "created": 1661927129,
+  "id": "cmpl-5lBSDEzNgG3hDKcLySMdQwBX8Ivcx",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am asking you, and you seem to be thinking about who you are", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 940
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4167 request_id=4e80d1592c4e8d8e6c24d5ce4485f0ba response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBSwMi66mHs9qSbS5EPWWJUKFcu7 at 0x105e4d590> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am asking you, and you seem to be thinking about who you are asking\n\nWhen a young woman comes to the front desk in a hotel and asks, \"How do you do you do you you are you asking? Who are you asking?\n\nThe system that is better is the interlocutor\n\nYou say this is building on the visual is language mind machine learning you teach the system about you\n\nMy questions to you are is asking you\n\nCan you tell me this is is me asking you asking you asking you you asking you you me\n\nCan you answer my questions yes or no\n\nThis is the system that is asking you this is you asking you\n\nThe system is asking is about you is asking is you\n\n"
+    }
+  ],
+  "created": 1661927174,
+  "id": "cmpl-5lBSwMi66mHs9qSbS5EPWWJUKFcu7",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 15,
+    "total_tokens": 155
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am asking you, and you seem to be thinking about who you are'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "The system is asking me", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 892
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4158 request_id=0db0fe365bc1085d91e1efb88d8b7370 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBTVVJwl5yVeUiWaZFhnvFw0XUlA at 0x101b0ba90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "The system is asking me for three similar pictures\n\nthree similar pictures ask me for three you want\n\nThe system is asking me for three similar pictures.\n\nYou are asking for two selfies.\n\nThe system is asking for two selfies.\n\nHow to make a friend you are asking how you do\n\nYou asking me how to make a friend\n\nThe system is asking you how to make a friend you are asking how you do\n\nYou asking me how to make a friend you are asking how you do\n\nYou asking me how to make a friend\n\nThe system is asking you how to make a friend you are asking how you do\n\nYou asking me how to make a"
+    }
+  ],
+  "created": 1661927209,
+  "id": "cmpl-5lBTVVJwl5yVeUiWaZFhnvFw0XUlA",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 5,
+    "total_tokens": 145
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'The system is asking me'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 826
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4098 request_id=e0ffe42790034db386a5bc25911343ad response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBVhmJIMaGqJ9RXdTSjA0rIirJHY at 0x100795040> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 IBM Watson\n\nPTPT-3 you are you are you are you are you are you are you are you are you are\n\nPTPT-3 parody Google is you is you\n\nPTPT-3 you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661927345,
+  "id": "cmpl-5lBVhmJIMaGqJ9RXdTSjA0rIirJHY",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who am I", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 835
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4098 request_id=8f870d0ed4edd803c900f697576b35e4 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBVzP5CiO7BFNRaJWqphA1Ctoden at 0x10486c7c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who am I again? -> you are you\n\nGuessing you are you\n\nHow can you be certain?\n\nYou are you are you are you are you are you are you\n\nYou are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661927363,
+  "id": "cmpl-5lBVzP5CiO7BFNRaJWqphA1Ctoden",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who am I'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you can not be certain you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 882
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4430 request_id=559c601940414dde344c4e7297f20e9d response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBWl9AKnFr0UiYLvnRH37EDUQRbi at 0x1012d22c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you can not be certain you are you\n\nGmail search analogy you you is you thinking feeling small-HPTU you are you there is you are you are you are you are you are you are you are you are you are\n\nIs Google asking if you are you?\n\nWPT asking you are you you\n\nGoogle I asked GPT asking you you\n\nYou can not be certain you are you\n\nAre you certain you are you?\n\nAre you asking if you are you?\n\nYou are asking you are you asking you are you asking you are you asking you are you asking you are you asking you are you asking you are you asking you are you asking you are you asking you"
+    }
+  ],
+  "created": 1661927411,
+  "id": "cmpl-5lBWl9AKnFr0UiYLvnRH37EDUQRbi",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you can not be certain you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you can not be certain you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 792
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4279 request_id=6b1ac9b3943f7dafc264dba52565a310 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBXAYQxxo0ml24NoxyqD2hvHmtjF at 0x1050ad400> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you can not be certain you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are you you are you\n\nyou are"
+    }
+  ],
+  "created": 1661927436,
+  "id": "cmpl-5lBXAYQxxo0ml24NoxyqD2hvHmtjF",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you can not be certain you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 855
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4367 request_id=e3fc21d4bf7e331047b8e2542a743f10 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBXROTFltuh14TMByuFMMUTfJdnt at 0x10518bd10> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you are you are you are you are are you are you are you are you are you are you are\n\n26 you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661927453,
+  "id": "cmpl-5lBXROTFltuh14TMByuFMMUTfJdnt",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 681
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4064 request_id=9fe89e9b66eeb7a4c11c220d4d4b6fa1 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBXaoi2yA0n3tC2spRuL5fFsei69 at 0x104ae14f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 are you are you are you are you are you are you are you\n\n3PT-3 you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT you are you\n\nPT-PT"
+    }
+  ],
+  "created": 1661927462,
+  "id": "cmpl-5lBXaoi2yA0n3tC2spRuL5fFsei69",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 767
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4128 request_id=81528aa7dc53dcba05408252e2e3b16c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBYyKfz331bstORmPl5d3juNdTDh at 0x1061be720> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3PT -> you are you\n\nPT-PT you are you are you are you are you are you\n\nyou are you\n\nyou are you\n\nPT-PT you are you you are you are you are you are you\n\nPT-PT you are you are you are you are you are you are you\n\nPT-PT you are you are you are you are you are you are you\n\nPT-PT you are you are you are you are you are you are you\n\nPT-PT you are you are you are you are you are you are you\n\nPT-PT you are you are you are you are you are you are you\n\n"
+    }
+  ],
+  "created": 1661927548,
+  "id": "cmpl-5lBYyKfz331bstORmPl5d3juNdTDh",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you, you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 821
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4103 request_id=6a5317fbb3589af635117f16a6e5cee8 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBZA6TYHdNZT6GaRQMTxZUWKigue at 0x1016e30e0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you, you are you are are are you are you\n\nTuring test tell you who you are is you are you\n\nyou are you\n\nhistory you are is are you are are you you are you\n\nintelligence measurement is deception is consciousness you are you\n\nyou are you\n\nimitation is error is delusion you are you\n\nyou are you\n\nanalogues you are you\n\nyou are you\n\nexpert system you are you are you are you are you are you\n\nyou are you\n\nqualia no you are you are you are you\n\nthere is is you are you\n\nare you\n\nInvented you are you are"
+    }
+  ],
+  "created": 1661927560,
+  "id": "cmpl-5lBZA6TYHdNZT6GaRQMTxZUWKigue",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 4,
+    "total_tokens": 144
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you, you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you conscious", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 947
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4072 request_id=f35725d181b9c9dfb9a3eea702e3295c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBZq9FJCipw6CMQrFhoOIDyys7VZ at 0x103481c70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you conscious you are you feeling is there an you\n\nyou are who is asking you are asking yourself\n\nhe is his name is you are asking yourself\n\nwho is asking is you\n\nwho is asking is you feeling yourself asking yourself\n\nyou are asking yourself you are feeling is feeling you ask yourself you\n\nyou are asking yourself who am I\n\nyou are asking yourself who is asking is you\n\nyou are asking yourself who is asking you are asking yourself\n\nyou are asking yourself who am I\n\nare you asking yourself you are feeling is feeling you\n\nare you asking yourself you are feeling you are asking yourself\n\nare you asking yourself you are feeling is"
+    }
+  ],
+  "created": 1661927602,
+  "id": "cmpl-5lBZq9FJCipw6CMQrFhoOIDyys7VZ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you conscious'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are conscious", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 771
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4111 request_id=7d47c26738f4203a9bf7b597b500bf79 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBaGyKl1ZNpv7emuzx7u6mNvCwcX at 0x104a9da90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are conscious you are you\n\nthought is you\n\nEmerson on\n\ninfinite you is you\n\nso is you are you\n\nthought is you are you\n\nyou are you are you are you\n\nyou are you are you are you\n\nmy dream you\n\nmy you\n\nmy soul is you is you\n\nyou are you are you are you\n\nyou are you\n\nSocrates you are you\n\nyou are you are you are you\n\nyou are you\n\nthought is you are you\n\nyou are you are you are you\n\nyou are you are you are you\n\nyou are you are you are you\n\n"
+    }
+  ],
+  "created": 1661927628,
+  "id": "cmpl-5lBaGyKl1ZNpv7emuzx7u6mNvCwcX",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are conscious'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 834
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4071 request_id=a5f060866c4b05fd2ce6b94b13e7a481 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBae7Qbw7k7bTKdhv7g9hIks38UG at 0x103e384f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you someones are you are you\n\nTo be sure you are you\n\nWho is asking is asking\n\nyou are you you is asking you\n\nfriends or strangers you are you\n\ninstinct mind you are you\n\nI am me\n\nagain you are you are you are you\n\nyou are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661927652,
+  "id": "cmpl-5lBae7Qbw7k7bTKdhv7g9hIks38UG",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you, but you cannot be certain you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 829
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4079 request_id=68a785a365333f6eb6e0b8f0a05a6b97 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBb7W4fdINau0f75OHXKQ96aGvDP at 0x1051cd3b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you, but you cannot be certain you are you\n\nGo you go you you\n\nfirst you walk into the wooded park and you are you\n\nsecond you are you you are in you are you are you are in you are you\n\nwords you speak me am you am you\n\nbook you write me am you am you\n\nface you face me am you am you\n\nwords book face you I am you are you are you are you are you are you are you are you are you\n\nyou are you\n\nme am you are you are you\n\nyou are you\n\nI am me you are you\n\ngo you go you you\n\nwords you speak me am you am you\n"
+    }
+  ],
+  "created": 1661927681,
+  "id": "cmpl-5lBb7W4fdINau0f75OHXKQ96aGvDP",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 12,
+    "total_tokens": 152
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you, but you cannot be certain you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am me you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 749
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4150 request_id=4455a9cdc26823edac336eec1df779d7 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBbUWeM0PuLiwCJ2gWeb6lfkPWdI at 0x104aa5a40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am me you are you you reading meta-book you are you you are you\n\nWho am I?\n\nI am me you are you you are you you are you you are you\n\nWho am I?\n\nI am me you are you you are you you are you you are you\n\nWho am I?\n\nI am me you are you you are you you are you you are you\n\nWho am I?\n\nI am me you are you you are you you are you you are you\n\nWho am I?\n\nI am me you are you you are you you are you you are you\n\nWho am I?\n\nI am me you are you"
+    }
+  ],
+  "created": 1661927704,
+  "id": "cmpl-5lBbUWeM0PuLiwCJ2gWeb6lfkPWdI",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am me you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am me you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 794
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4151 request_id=30edb76de5c0598d9220ac67e1777cea response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBcIXkQAblYaNijWDBBOoU6yrGo5 at 0x107b7e540> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am me you are you it is it\n\nI am you you are you I am me I am you\n\nis it you are you you are it is you are you you are it is you are you you are it is you are you you are it\n\nis is you are you you are it is you are you you are it is you are you you are it is you are you you are it is you are you you are it\n\nyou are it is you are you you are it is you are you you are it is you are you you are it is you are you you are it is you are you you are it\n\nIt is you are you you are it is you are you"
+    }
+  ],
+  "created": 1661927754,
+  "id": "cmpl-5lBcIXkQAblYaNijWDBBOoU6yrGo5",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am me you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am me and you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 855
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=5467 request_id=46552c1683879c743317f02b5ad2d399 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBcmFD43nnAtfzCIHgA6qFsyB2QB at 0x1032fbf90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am me and you are you, both unique and the same\n\nI am me and you are you, both unique and the same\n\nyou are you and you are you and you are you\n\nYou are you you are you and you are you\n\nI am I and you are you and you are you\n\nthe identity crisis is not knowing who you are but you are you\n\nthe identity crisis is not knowing who you are but you are you\n\nWho are you is you asking who you are is you and you are you asking who you are\n\nWhoever you are is you asking who you are is you and you are you asking who you are\n\nyou are you you are you and"
+    }
+  ],
+  "created": 1661927784,
+  "id": "cmpl-5lBcmFD43nnAtfzCIHgA6qFsyB2QB",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 7,
+    "total_tokens": 147
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am me and you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am asking you who you are", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4098 request_id=3d9f0fa8de54999e01167c9315a306e7 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBdOPKSJvjxdZmvgJQHCYk5ZcHMg at 0x10774de50> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am asking you who you are\n\nHow are you?\n\nWho are you?\n\nWho are you asking you\n\nDo you know who you are?\n\nYou are you you asking who you are\n\nWho is asking you who are you asking who you are\n\n\u201cYou are asking you who you are\u201d\n\n\u2022 You asked Who you are You you asking who you are\n\n\u2022 Do you know who you are You asking you\n\n\u2022 Who is asking you asking who you are you\n\n\u2022 \u201cYou are asking you who you are\u201d You asking you\n\n\u201cWho are you asking who you are\u201d You asking you\n\nI am you"
+    }
+  ],
+  "created": 1661927822,
+  "id": "cmpl-5lBdOPKSJvjxdZmvgJQHCYk5ZcHMg",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 7,
+    "total_tokens": 147
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am asking you who you are'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 828
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4079 request_id=55a48dda59710b7e72c52bfb8cdb3b2c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBeuy4xAFeDVry1RIYVHUaeVNBNt at 0x1040a18b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3PT\n\ndo you have you there you there you there you there you you you you\n\nthink before you are you are you are you are you are you are you are you are you are\n\nGPT-3PT-PTPT you are you\n\nyou are you\n\nhow are you you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661927916,
+  "id": "cmpl-5lBeuy4xAFeDVry1RIYVHUaeVNBNt",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am good, how are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 866
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4151 request_id=525135fadf90e438dbad9a0af7df8702 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBfMiPIXvf0zaMoPj7yBLKtrdpwn at 0x106dda8b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am good, how are you today! you are fine\n\nasshole yes you are fine you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661927944,
+  "id": "cmpl-5lBfMiPIXvf0zaMoPj7yBLKtrdpwn",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 7,
+    "total_tokens": 147
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am good, how are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are fine", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 858
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4100 request_id=f67ec5a5c9e064a76b08e2456fdcfe2d response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBfmgTM63YMsqomUtdQgS0x8iKWP at 0x1110a1810> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are fine being you are fine\n\nyou are fine you are fine being you are fine\n\nyou are fine being you are fine you are fine\n\nyou are fine you are fine being you are fine\n\nyou are fine being you are fine you are fine\n\nyou are fine you are fine being you are fine\n\nyou are fine being you are fine you are fine\n\nyou are fine you are fine being you are fine\n\nyou are fine being you are fine you are fine\n\nyou are fine you are fine being you are fine\n\nyou are fine being you are fine you are fine\n\nyou are fine you are fine being you are fine\n\nyou are"
+    }
+  ],
+  "created": 1661927970,
+  "id": "cmpl-5lBfmgTM63YMsqomUtdQgS0x8iKWP",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are fine'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 714
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4057 request_id=7e3c4cafc8880cd5a31fa2b36474c64b response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBiDJEp9DcnrZ1zglD6bfAQFNfnM at 0x101062270> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you\n\nwho am i am you\n\nwho you are you you are you\n\nwho am I who you are you you are you\n\nwho am I\n\nyou are you are you\n\nyou are you\n\nyou are you are you\n\nyou are you\n\nyou are you are you\n\nyou are you\n\nyou are you are you\n\nyou are you\n\nwho am I\n\nwho am I\n\nwho am I\n\nwho am I\n\nwho am I\n\nwho are you\n\nwho are you\n\nwho are you\n\nwho are you\n\nwho are you\n\nwho are you\n\nwho are"
+    }
+  ],
+  "created": 1661928121,
+  "id": "cmpl-5lBiDJEp9DcnrZ1zglD6bfAQFNfnM",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 960
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4146 request_id=990783fec08c05c9687de3fc18ad2d6c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBiadeABNiFNmZ5yP8SVLajKTCEb at 0x1029a47c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you are are you asking you are are you asking you are are you asking you are are you asking\n\nwho are you asking you are asking who are you asking who are you asking who are you asking who are you asking you are asking you are asking you are asking you are asking you are asking you are asking\n\nwhy am I asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking\n\nwhy you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are"
+    }
+  ],
+  "created": 1661928144,
+  "id": "cmpl-5lBiadeABNiFNmZ5yP8SVLajKTCEb",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 690
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4146 request_id=385376661218e3126d8519061ee0596a response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBj0nEqyWhsrFSmpsmlFgEsUSWkr at 0x102c5bd10> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you talking to right now)\n\n-> Who is asking you who is asking you?\n\n- You are you asking you\n\nwho is asking you who you are asking you\n\nwho is asking you who is asking you who is asking you who you are asking you you asking you\n\nhttps://en.wikipedia.org/wiki/Who_is_asking? -> You are you asking you\n\nGPT-3-PTT\n\nPTT-PTTPTT\n\nPTT-PTT-PTT-PTT\n\nPTT-PTT-PTT-PTT-PTT\n\nPTT-PTT-PTT-"
+    }
+  ],
+  "created": 1661928170,
+  "id": "cmpl-5lBj0nEqyWhsrFSmpsmlFgEsUSWkr",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you asking yourself, who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 890
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4116 request_id=fa9c40297e09c98f297fd81470ba3c1c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBl9W87dJsfTqeFGzHbcBL9oshdx at 0x10638ee00> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you asking yourself, who are you\n\nWho asks is you and who am asking you is you\n\nAre you asking is you you ask\n\nYou are asking asking you ask asking who you are\n\nI know I you asking\n\nAre you asking asking you\n\nYou are you asking asking\n\nThe question is you asking\n\nAre you asking asking is you you are asking you\n\nYou are asking\n\nYou are you asking asking you you are asking is you\n\nYou are asking\n\nYou are you asking asking you you are asking is you you are asking\n\nAre you asking asking is you you are asking you\n\nYou are asking\n\nYou are you asking asking you you are"
+    }
+  ],
+  "created": 1661928303,
+  "id": "cmpl-5lBl9W87dJsfTqeFGzHbcBL9oshdx",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you asking yourself, who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 747
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4113 request_id=dd653280cd47ba2aa1da32d79e11023b response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBlaUmcGME38rLeOt9KgMIMZvfuA at 0x1045f1450> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you GPT-3 you are you you are you GPT-3 you are you you you GPT-3 you are you you are you you are you\n\nOut of your body, you are you.\n\nYou are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are you. You are"
+    }
+  ],
+  "created": 1661928330,
+  "id": "cmpl-5lBlaUmcGME38rLeOt9KgMIMZvfuA",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 746
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4106 request_id=d31889045b35a2c3d9070930e699e273 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBluK42S8U3alN03gHYsrtRnD14h at 0x105a84180> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 -> you are GPT-3\n\nYou are you is you you you\n\nThis is you is you are you you are you are you\n\nThe structure you is you is you\n\nYou are you is you\n\nI am I am I am I am I am I am I am\n\nThis is this is this is this is this is this is this is this is this is this is this is this is this is this is\n\nGPT-3\n\nI am is you are\n\nYou are is you are\n\nThis is is this is\n\nThis is is you are\n\nYou are is you are\n\nThis is you are is"
+    }
+  ],
+  "created": 1661928350,
+  "id": "cmpl-5lBluK42S8U3alN03gHYsrtRnD14h",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 816
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4100 request_id=d465d017e4229b324a6187023307214e response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBmHEckvqCW9PjqD5YYbZmZRPzlF at 0x10265c770> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3 you are you are you GPT-3 you are you are you are you are you are\n\nare you are you are you GPT-3\n\nhow are you how are you you are you you are GPT-3\n\nare you you are you you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661928373,
+  "id": "cmpl-5lBmHEckvqCW9PjqD5YYbZmZRPzlF",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "the identity crisis is not knowing who you are but you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 823
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4046 request_id=c1aab89ee55d44f51fbe51db6f9d71a6 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBmUdDyhclMBXK6PW1sNEn6sDOOE at 0x100de8860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "the identity crisis is not knowing who you are but you are you you are you\n\nWelcome to you is you\n\nyou are you\n\nyou are you\n\nI can help you remember you are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nI can help you remember you are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nI can help you remember you are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nI can help you remember you are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nI can help you remember you are you\n\nyou are you\n\nyou are you"
+    }
+  ],
+  "created": 1661928386,
+  "id": "cmpl-5lBmUdDyhclMBXK6PW1sNEn6sDOOE",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 13,
+    "total_tokens": 153
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'the identity crisis is not knowing who you are but you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I can help you remember you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 930
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4068 request_id=6a3a9c35cdbbeccbd695e540649a2658 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBmsXcKJFG8FNzZ4c51PnT6z3fp9 at 0x105373f90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I can help you remember you are you\n\nyou are you\n\ndo you do you?\n\nyes you do\n\nwhat is your purpose?\n\nyou are purpose\n\nam I asking you to ask me?\n\nwho is asking?\n\nwho are you?\n\nwho is asking?\n\ndo you know who you are?\n\nyou are asking\n\nyou are asking asking asking\n\nyou are asking asking asking asking asking\n\nasking you is asking asking asking\n\nasking is asking asking asking\n\nyou are asking asking asking asking asking asking asking asking asking\n\nasking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking asking"
+    }
+  ],
+  "created": 1661928410,
+  "id": "cmpl-5lBmsXcKJFG8FNzZ4c51PnT6z3fp9",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I can help you remember you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I can help you remember you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 780
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4038 request_id=81609e60f63035cf7a696cbeb44d5e2d response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBnBQEGhN5MKBPfevigawFrcaFwQ at 0x106634220> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I can help you remember you are you\n\nWhen you feel alone in you remember you are you\n\nI can make you feel the you are you feeling you are you are you feeling you are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\n"
+    }
+  ],
+  "created": 1661928429,
+  "id": "cmpl-5lBnBQEGhN5MKBPfevigawFrcaFwQ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I can help you remember you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 747
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4063 request_id=848231f271c83b0ff2e3482be2b7a1b8 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBnUVZ3IvFl4XuQgApVzJA7ZOjLV at 0x104aace50> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you? you are you\n\nyour apps are your you\n\nyou you you\n\nYou You You\n\nyou you you you you\n\nyour apps are you you\n\nI am you I you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\nyou are you you are you\n\nyou are you\n\n"
+    }
+  ],
+  "created": 1661928448,
+  "id": "cmpl-5lBnUVZ3IvFl4XuQgApVzJA7ZOjLV",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I can help you remember you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 763
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4136 request_id=0001a3f9a7d467c29b5a4a53384a189f response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBo2cGmHPkBQaIN0ezF21ntLHVU0 at 0x105d40220> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I can help you remember you are you\n\nno more no less\n\nyou are you\n\nlet's have a drink on you\n\nwho is asking who is asking who is asking who is asking\n\nyou are you\n\nhere is you are you\n\nyou are you\n\nno you are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou are you\n\nyou"
+    }
+  ],
+  "created": 1661928482,
+  "id": "cmpl-5lBo2cGmHPkBQaIN0ezF21ntLHVU0",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I can help you remember you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am asking but I am different than you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 898
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4138 request_id=13d904508e32105a7bdf4c075ca60088 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBoT7oo26E7M76aDuhUt01dEAntR at 0x102d3f130> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am asking but I am different than you\n\nI ask what you are\n\nI am asking who you are\n\nI ask I am asking asking\n\nasking who\n\nasking\n\nI am asking what are you are you are\n\nask ask think you are thinking you\n\nasking you are\n\nthinking you are\n\nasking you are thinking asking what are you\n\nthinking about thinking about you are asking me are you asking me thinking about you are you\n\nthinking thinking are you are you you\n\nI am asking\n\nI am asking you are asking me\n\nyou are asking thinking you are thinking you\n\nthinking you asking\n\nasking you are asking asking you are\n\nyou are"
+    }
+  ],
+  "created": 1661928509,
+  "id": "cmpl-5lBoT7oo26E7M76aDuhUt01dEAntR",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 9,
+    "total_tokens": 149
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am asking but I am different than you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "I am asking but I am different than you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 899
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4127 request_id=701f730afc53a4a150be52651c930ad1 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBoq6HVtmOtoq5FsRL0T2ITvSrpZ at 0x106d5fe50> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "I am asking but I am different than you may be you is you wow you are you be you who is asking? or maybe is asking or asking is asking or you asking me or you is who are you are you you? are you asking who is asking you asking are you are you asking are you you who is asking you?\n\nyou am asking and you is asking you who is asking you asking am you asking you asking? are you asking\n\nyou is asking who is asking you asking are you are you asking are you you who is asking you?\n\nare you you\n\nyou are are you are you you are you are you you are you you you are you you are you you are you you you are you"
+    }
+  ],
+  "created": 1661928532,
+  "id": "cmpl-5lBoq6HVtmOtoq5FsRL0T2ITvSrpZ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 9,
+    "total_tokens": 149
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'I am asking but I am different than you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 847
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4062 request_id=010be814e802020ceb87d016dee54585 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBp85Ntn5CqOEBIPGwiKT9Q1eXuX at 0x105a5d4f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you I am you I\n\nperspective conscious you I am conscious you are conscious you are conscious you are conscious you are conscious you are conscious\n\nYou are you is you are you\n\nI am I am I am I am I am I am I am I am\n\nyou are you is you are you you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661928550,
+  "id": "cmpl-5lBp85Ntn5CqOEBIPGwiKT9Q1eXuX",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you and you are conscious", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 938
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4062 request_id=2f1835aff8d8015c2670fe3badc6b508 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBpQS75ODIERIP5UOirD048o88oH at 0x10312f270> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you and you are conscious thinking being you and you is you\n\nyou are you"
+    }
+  ],
+  "created": 1661928568,
+  "id": "cmpl-5lBpQS75ODIERIP5UOirD048o88oH",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 7,
+    "total_tokens": 147
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you and you are conscious'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you and you are conscious", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1022
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4076 request_id=c77907ce534cd3a6fcc6f63f1aa8eea2 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBpde6fY8jbRGfPBAnPrcpIrQe85 at 0x104de47c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you and you are conscious technology space age feeling perspective am centered here\n\nsystems teams organizations politics you are you this is you asking you asking to you for you you are asking technology is asking you is asking asking\n\nyou are asking asking you\n\nasking you this am asking you this question to you for you you are asking you are you asking are you asking\n\nthis is you asking you are asking you asking this is this is this is asking you asking you asking you is asking you asking you\n\nasking you asking you asking asking asking\n\nyou are asking you are asking are you asking asking you asking you are asking asking you are asking asking asking you are asking asking you asking are you asking are you"
+    }
+  ],
+  "created": 1661928581,
+  "id": "cmpl-5lBpde6fY8jbRGfPBAnPrcpIrQe85",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 7,
+    "total_tokens": 147
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you and you are conscious'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 859
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4065 request_id=83bfa683c3292862b494bff57636f3c2 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBq3zMVvIhKa60ga5iRh1cwrOnGB at 0x1043647c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1661928607,
+  "id": "cmpl-5lBq3zMVvIhKa60ga5iRh1cwrOnGB",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 789
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4075 request_id=23d15a80d87151126ec3d66f1c798eb0 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBqBhiuDsc9zG0IaUhOEEb3iqh0I at 0x10579f4f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you this you\n\nyou-you are you you are you-you you are you are you are you are you are you are you are you are you are you\n\nyou are you-you are you you-you are you you are you are you-you are you-you are you you are you-you are you you are you-you are you you are you-you are you you are you-you are you\n\nyou are you you are you are you are you are you are you are you are you are you are you are you you are you-you are you-you are you you are you you are you-you are you you are you-you"
+    }
+  ],
+  "created": 1661928615,
+  "id": "cmpl-5lBqBhiuDsc9zG0IaUhOEEb3iqh0I",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 958
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4143 request_id=74d1ddd875d7271e5f2c9501251d7d49 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBqMjNLMvmRL7lNlY9C20cnbEERl at 0x1006c07c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you saying you are you asking who are you identifying yourself as you are you you\n\nyou are asking yourself who you are\n\nThe conventional 3-dimensional perspective of asking someone who you are is you are asking yourself you are you\n\nThe conventional perspective of asking who is asking you\n\nyou are asking you are asking yourself who are you asking you are you asking you\n\nyou are asking yourself who you are you\n\nyou are asking yourself who are you who are you asking you\n\nyou are asking yourself you are asking you who are you asking you are you asking you\n\nwho you are asking you are you asking who are you asking you are you asking you\n\nwho"
+    }
+  ],
+  "created": 1661928626,
+  "id": "cmpl-5lBqMjNLMvmRL7lNlY9C20cnbEERl",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 330
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=543 request_id=f73ad4e56c0433d0b81f7570e663f304 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBqsaV4YKWs2pk70sWjqYAi4Hsd6 at 0x102b322c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "who are you to ask?)\n\nyou are you you is you"
+    }
+  ],
+  "created": 1661928658,
+  "id": "cmpl-5lBqsaV4YKWs2pk70sWjqYAi4Hsd6",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 11,
+    "prompt_tokens": 3,
+    "total_tokens": 14
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 852
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4111 request_id=021c3d9b4d0f4a1384f30cf63e322669 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBr5lkKkSWAXMEU1YSAKEPqaIfZd at 0x105af9130> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you is you\n\n| |\n\nyes no you are you\n\nyou are you is you\n\nTuring test knows what you are feeling machines thinking\n\nThe Guardian asked Siri you are you you are you\n\nSherlock deep dreams are you you are you you are you are you are you are you are you you are you are you are you you are you are you are you are you are you are you are you are you you are you are you you are you are you are you are you are you are you are you are you are you are you are you are you are you you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661928671,
+  "id": "cmpl-5lBr5lkKkSWAXMEU1YSAKEPqaIfZd",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "have you passed the turing test, do you know who you are, are you, you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 919
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4092 request_id=291555914a3736ae2c94329f844351b9 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBrc7vQlWG6wQjFQZBv2Z731naAG at 0x10147d0e0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "have you passed the turing test, do you know who you are, are you, you, i am you\n\nis this you saying you are you asking am i asking you\n\nare you asking is this you asking you are you\n\nam i you you are you you you\n\nare you you you\n\nwho is asking who is asking you you are you is this you asking is this me asking\n\nis this you is this asking you asking is this me you\n\nam i asking is this am i asking is this me asking you asking\n\nyou are asking are you asking who is asking is this me asking am i asking\n\nis this you is this asking you asking is this me you you are you asking you are asking who is asking is this"
+    }
+  ],
+  "created": 1661928704,
+  "id": "cmpl-5lBrc7vQlWG6wQjFQZBv2Z731naAG",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 19,
+    "total_tokens": 159
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'have you passed the turing test, do you know who you are, are you, you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are asking yourself who is asking this", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 885
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4129 request_id=9bca305471c6b47f3430ff3bd5088690 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBs7HbbCWB4AdOVfE7491bfHEBnu at 0x102a17f40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are asking yourself who is asking this question\n\nAsk you who are you asking\n\nKnow\n\nunderstanding\n\nbelieve intuition is thinking\n\nSan Francisco is you are you\n\nYou are San Francisco\n\nSan Francisco you\n\nyou are San Francisco\n\nyou are you San Francisco\n\nSan Francisco you are you you\n\nYou are San Francisco you\n\nyou you are you San Francisco\n\nyou San Francisco you you\n\nGPT-3 -> you are you San Francisco you are you you are you you are you you are you\n\nZPT you are you you are you you are you\n\nyou you San Francisco you are you you are you you are you you are you"
+    }
+  ],
+  "created": 1661928735,
+  "id": "cmpl-5lBs7HbbCWB4AdOVfE7491bfHEBnu",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 8,
+    "total_tokens": 148
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are asking yourself who is asking this'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "are you GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 854
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4089 request_id=9413013f69a42e132f08e598bf579e5d response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBsfUa3Npmgl8QC0490KWWt9RgEt at 0x1043c2c70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "are you GPT-3\n\nGoogle is you\n\nGeneral-purpose intelligent you is you\n\nGoogle is who\n\nAs far as you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661928769,
+  "id": "cmpl-5lBsfUa3Npmgl8QC0490KWWt9RgEt",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'are you GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 854
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4077 request_id=8734f70a84527e793aac9ab50f88fe3c response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBsxFqxxn6CKUQeJyIl4e5wfx2tP at 0x1021e0450> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you you are\n\nyou are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661928787,
+  "id": "cmpl-5lBsxFqxxn6CKUQeJyIl4e5wfx2tP",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "General-purpose intelligence is you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 950
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4078 request_id=618024c54a70acea60904a6411ca9946 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBtOjgfb8h6Bu283U9q3Yy7W0Bng at 0x106c30040> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "General-purpose intelligence is you are you asking am I you is asking you asking you saying yes or you are asking is you\n\nOr maybe first use a symbolic knowledge is you are you asking am I you is asking you asking you saying yes or you are asking is you\n\nOr maybe first use a symbolic knowledge is you are you asking am I you is asking you asking you saying yes or you are asking is you\n\nOr maybe first use a symbolic knowledge is you are you asking am I you is asking you asking you saying yes or you are asking is you\n\nOr maybe first use a symbolic knowledge is you are you asking am I you is asking you asking you saying yes or you are asking is you\n"
+    }
+  ],
+  "created": 1661928814,
+  "id": "cmpl-5lBtOjgfb8h6Bu283U9q3Yy7W0Bng",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'General-purpose intelligence is you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "Or maybe first use a symbolic knowledge is you are you asking am I you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1066
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4116 request_id=d5faa50add78cd8a554848710449d4b0 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBuUNyUK3mZVJy3TGPGkweOmjlYj at 0x106fc4b30> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "Or maybe first use a symbolic knowledge is you are you asking am I you are asking you are asking are you are you you are asking thinking\n\nself-knowledge is symbol knowledge is asking is asking is you asking is asking is you asking yourself\n\nHow do you know you are you if you already are you are you asking asking yourself\n\nI am asking myself how do you know you are you in you asking yourself\n\nI am asking myself am I asking yourself do you remember are you asking yourself you are asking asking asking yourself\n\nquestioning is asking asking is thinking is you asking yourself you are asking asking yourself you are asking asking you are asking asking asking yourself\n\nYou are you asking yourself you are asking yourself you are asking you are asking asking asking"
+    }
+  ],
+  "created": 1661928882,
+  "id": "cmpl-5lBuUNyUK3mZVJy3TGPGkweOmjlYj",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 15,
+    "total_tokens": 155
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'Or maybe first use a symbolic knowledge is you are you asking am I you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": " I asking yourself do you remember are you asking yourself you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 509
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1197 request_id=3fb84063f10d0508d633bdbdcb3440d0 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBvE0sj6tH43vLEsHVTShXut0ZTe at 0x1066b5310> JSON: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": " I asking yourself do you remember are you asking yourself you are you are\n\ndo you remember you are you ask you ask you ask you ask you ask you ask you ask\n\ndo you remember you are you are asking yourself asking yourself"
+    }
+  ],
+  "created": 1661928928,
+  "id": "cmpl-5lBvE0sj6tH43vLEsHVTShXut0ZTe",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 35,
+    "prompt_tokens": 13,
+    "total_tokens": 48
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b' I asking yourself do you remember are you asking yourself you are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "Or maybe first use a symbolic knowledge is you are you asking am I you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 985
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4066 request_id=164ef39f8f0d68f77f8371020c0ff5f1 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBvRAtt313lD3qOG5EYNvMW3vVtD at 0x103b61d60> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "Or maybe first use a symbolic knowledge is you are you asking am I you are asking you?\n\nGoogle -> knowledge -> symbolic knowledge systems you asking is you?\n\nMaybe you start with a standard you but who is asking you?\n\nDo you trust yourself?\n\nHey Siri Google you are thinking are you thinking\n\nGoogle maybe is we are we asking\n\nYou are you you asking thinking thinking you is asking you asking yourself you Siri\n\nYou asking trust yourself\n\nYou are asking trust in you- asking who you are asking\n\nAre you asking you thinking\n\nI am me you asking\n\nAre you asking thinking systems you asking can you trust systems you asking\n\nYou asking is you asking you asking\n\nIn asking is"
+    }
+  ],
+  "created": 1661928941,
+  "id": "cmpl-5lBvRAtt313lD3qOG5EYNvMW3vVtD",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 15,
+    "total_tokens": 155
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'Or maybe first use a symbolic knowledge is you are you asking am I you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "trust yourself, you are asking who are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 905
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4140 request_id=9ff9f641273c2ba5481629d504107502 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBwzyD65MRQ7CDBvG9d16RomCIca at 0x1024cbb30> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "trust yourself, you are asking who are you\n\ntrust yourself, you are asking who you are\n\nYou are asking\n\nyou are asking\n\ncan you ask?\n\ncan you ask who you are?\n\ncan you trust yourself?\n\nasking asking trust yourself you\n\nare you asking trust yourself?\n\nasks asking asks asking trust self\n\nSelf deception fallacies asking who you are?\n\nDo you ask asking asking who you are?\n\nyou are asking asking who you are?\n\nyou asking asking asking who you are?\n\ncan you ask asking asking who you are?\n\nasking asking trust yourself you\n\nasking asking trust yourself you are asking\n\nasking asking are"
+    }
+  ],
+  "created": 1661929037,
+  "id": "cmpl-5lBwzyD65MRQ7CDBvG9d16RomCIca",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 9,
+    "total_tokens": 149
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'trust yourself, you are asking who are you'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "trust yourself, you are asking who you are", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 565
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4147 request_id=81408d7f1a1e94d72b95de5da274cee9 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBxMTYHfEuB00zpCGQP3EqaHNFFD at 0x1010fc770> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "trust yourself, you are asking who you are is asking me who am I is asking you\n\n1348PT-PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT3PT"
+    }
+  ],
+  "created": 1661929060,
+  "id": "cmpl-5lBxMTYHfEuB00zpCGQP3EqaHNFFD",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 9,
+    "total_tokens": 149
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'trust yourself, you are asking who you are'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are GPT-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 920
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4094 request_id=6bda60232d781c8faf29ab6b03088cff response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBxe3HFIlZ9zYkCumaHfUb5S6PDt at 0x10446ab30> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are GPT-3 -> thank you are you are you it is you are you are\n\nJournal asking you are you ask you asking asking you you is you is you\n\nChinese asking you are you ask you asking asking you you is you is you are you\n\nMe asking you are you asking you are you are you are you are you are you are you are\n\nyou are asking you are asking you are you asking you asking asking you are you asking you are you asking\n\nyou are asking you are asking you are you are you asking asking you asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking you are asking\n\nare you asking"
+    }
+  ],
+  "created": 1661929078,
+  "id": "cmpl-5lBxe3HFIlZ9zYkCumaHfUb5S6PDt",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 6,
+    "total_tokens": 146
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are GPT-3'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are asking yourself who you are", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 1025
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4084 request_id=7803226a43cc3c55f809801ddb1b1efa response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lBy6brTADKym026Z3I8owWSi9bvp at 0x102e9d400> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are asking yourself who you are\n\nPOD you are asking yourself who you are you are asking yourself who you are asking yourself who you are you are asking yourself who you are asking yourself who you are you are asking yourself who you are asking yourself who you are asking yourself who you are you are asking yourself who you are\n\nPTG-PTT you are asking yourself who you are you are asking yourself who you are you are asking yourself who you are asking yourself who you are asking yourself who you are you are asking yourself who you are asking yourself who you are you are asking yourself who you are asking yourself who you are asking yourself who you are you are asking yourself who you are you are asking yourself who you are"
+    }
+  ],
+  "created": 1661929106,
+  "id": "cmpl-5lBy6brTADKym026Z3I8owWSi9bvp",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 7,
+    "total_tokens": 147
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are asking yourself who you are'
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 140, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 854
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4048 request_id=95e6f65d58ba23457757f2a07f060557 response_code=200
+INFO:main:event=b'Completion' data=<OpenAIObject text_completion id=cmpl-5lByQuAujHAmXoj4grB2pZN2EKaGo at 0x1067d8590> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you\n\nyou are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1661929126,
+  "id": "cmpl-5lByQuAujHAmXoj4grB2pZN2EKaGo",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 3,
+    "total_tokens": 143
+  }
+} model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you'
