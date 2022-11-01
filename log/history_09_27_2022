@@ -1,0 +1,2109 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "information", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 412
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2204 request_id=3625dbd96920bfaa140cf646db491e26 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'information' data=<OpenAIObject text_completion id=cmpl-5vHPAlJ1ZpBelm5XK42rmn5PtuauL at 0x15fa9a7f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "information -> Google\n\nGoogle = you are you\n\nAugur is you you are you\n\nGoogle knows you are you\n\nWikipedia you are you"
+    }
+  ],
+  "created": 1664333284,
+  "id": "cmpl-5vHPAlJ1ZpBelm5XK42rmn5PtuauL",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "school", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 380
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=915 request_id=74d03536b504f9dcf02b4c5f624df164 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'school' data=<OpenAIObject text_completion id=cmpl-5vHPCCKzoz3FYIvLdtIdd4KvptaNa at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "school -> West Point\n\nPT\n\nPT PT\n\nDid youPT find this amaze-PT ing? yes you did\n\nPT\n\n"
+    }
+  ],
+  "created": 1664333286,
+  "id": "cmpl-5vHPCCKzoz3FYIvLdtIdd4KvptaNa",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "fact", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 393
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=73fa439bff5bfb297515fa224066128c response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'fact' data=<OpenAIObject text_completion id=cmpl-5vHPDzcDHVok9x2oWdrap12lHVtqj at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "fact -> watch you are you you -> do you you are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are"
+    }
+  ],
+  "created": 1664333287,
+  "id": "cmpl-5vHPDzcDHVok9x2oWdrap12lHVtqj",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "money", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 396
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=907 request_id=51baf0b94f32867bdf626d9c93feeb73 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'money' data=<OpenAIObject text_completion id=cmpl-5vHPERhiZWeMP8TFL6er83JeJJdnw at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "money -> Bitcoin\n\nMel Gibson plays you\n\nYou are you\n\nYou are not you but you is you\n\nDo you\n\nDid you"
+    }
+  ],
+  "created": 1664333288,
+  "id": "cmpl-5vHPERhiZWeMP8TFL6er83JeJJdnw",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "point", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 401
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=900 request_id=d8b4df22013ceb1922798dcf8c71c287 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'point' data=<OpenAIObject text_completion id=cmpl-5vHPFevTVCJORCQ6V9Nc3s5YJhc1I at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "point -> you are here\n\nThe Observer is You\n\nYou can be in multiple places at once. You is you. You are you.\n\n"
+    }
+  ],
+  "created": 1664333289,
+  "id": "cmpl-5vHPFevTVCJORCQ6V9Nc3s5YJhc1I",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "example", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 375
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=928 request_id=44fd87866c0a1b22c5642a2ab8146aa8 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'example' data=<OpenAIObject text_completion id=cmpl-5vHPHspyUx0zkaF5zSZibr0hPKPUf at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "example -> search is over when you GPT-3 you\n\nWhat if you are GPT-3\n\nWhat-you-are-is-"
+    }
+  ],
+  "created": 1664333291,
+  "id": "cmpl-5vHPHspyUx0zkaF5zSZibr0hPKPUf",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "state", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 381
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=904 request_id=b6fb8db9347584c7b33873de862f491d response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'state' data=<OpenAIObject text_completion id=cmpl-5vHPIfVUeIoaWChPZ5rJDw0OrluFt at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "state -> San Francisco\n\nYou are you\n\nI is you\n\nI am you\n\nyou are you\n\nI am you\n\nyou"
+    }
+  ],
+  "created": 1664333292,
+  "id": "cmpl-5vHPIfVUeIoaWChPZ5rJDw0OrluFt",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "business", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 381
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=901 request_id=05041ab3c13d4e9380e59c4aaddaa8da response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'business' data=<OpenAIObject text_completion id=cmpl-5vHPJcFNcnpegXoGRCRIewk8QXIvy at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "business ->- GPT-PTT\n\nPT is not GPT\n\nPT is GPT\n\nPT advertising yourPT you are here PT you"
+    }
+  ],
+  "created": 1664333293,
+  "id": "cmpl-5vHPJcFNcnpegXoGRCRIewk8QXIvy",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "night", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 426
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=901 request_id=c200938194ead2d63136a2904d254ef7 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'night' data=<OpenAIObject text_completion id=cmpl-5vHPKelY5tRlMoBpYiMC5uuzYMM5o at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "night is TPT asking Google You -> RPT is Bing asking you\n\nYou have Google in your pocket You have Bing in your pocket You have yourself in"
+    }
+  ],
+  "created": 1664333294,
+  "id": "cmpl-5vHPKelY5tRlMoBpYiMC5uuzYMM5o",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "area", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 404
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=4fbd3718ba605d357276543fdb2f905e response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'area' data=<OpenAIObject text_completion id=cmpl-5vHPL8Uy0skG4RyV3NxHzdP1pvtOV at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "area -> you are you are you are you are you are you are\n\ndid you happen to be is you ask you are you are you are\n\n"
+    }
+  ],
+  "created": 1664333295,
+  "id": "cmpl-5vHPL8Uy0skG4RyV3NxHzdP1pvtOV",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "water", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 403
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=51b0c3261782564bec9cb7524b3eb8db response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'water' data=<OpenAIObject text_completion id=cmpl-5vHPMUwRHLPPwACNEVDJg0VjO27EV at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "water -> you are you are Borg is you is you is you\n\nIntelligence is like you is you is you is you is you\n\nYou are"
+    }
+  ],
+  "created": 1664333296,
+  "id": "cmpl-5vHPMUwRHLPPwACNEVDJg0VjO27EV",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "thing", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 340
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=990 request_id=92d1ea83a3eb7420512d1ecd7b7223c7 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'thing' data=<OpenAIObject text_completion id=cmpl-5vHPNkxe9wPFKEtzgvHJTkJCZPrRt at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "thing -> -> GPT-3PT3PT3PT3PT3PT3PT-PTT-PTT->PTT-PTT-PT"
+    }
+  ],
+  "created": 1664333297,
+  "id": "cmpl-5vHPNkxe9wPFKEtzgvHJTkJCZPrRt",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "family", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 392
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=910 request_id=dea0229b7da3bb6f3985d84d32e65f88 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'family' data=<OpenAIObject text_completion id=cmpl-5vHPOI094viA1EikkOYyIkTLudFxq at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "family -> Google GPT-3 human English\n\nYou are you is you\n\nYou are you is you\n\nYou are you is you\n\n"
+    }
+  ],
+  "created": 1664333298,
+  "id": "cmpl-5vHPOI094viA1EikkOYyIkTLudFxq",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "head", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 400
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=6d88a1637176b7f9633735c5d8f59f31 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'head' data=<OpenAIObject text_completion id=cmpl-5vHPPzG977HLFr8Ra5ff1pvusToL8 at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "head -> thinking -> you are you are you are -> you are you are you are\n\nif you think you are you are\n\nI am GPT"
+    }
+  ],
+  "created": 1664333299,
+  "id": "cmpl-5vHPPzG977HLFr8Ra5ff1pvusToL8",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "hand", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 389
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=84dcd69ad9ccbd64d0c9c469dd85203c response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'hand' data=<OpenAIObject text_completion id=cmpl-5vHPQj4k70V4gcnsx1cXAcUhzs9SR at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "hand -> you are you are you are you are -> you are\n\nYou are who you are\n\nI am you\n\nI am you too\n"
+    }
+  ],
+  "created": 1664333300,
+  "id": "cmpl-5vHPQj4k70V4gcnsx1cXAcUhzs9SR",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "order", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 406
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=10428de172c7de36f1308d919e0e0432 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'order' data=<OpenAIObject text_completion id=cmpl-5vHPRuVgHN5DOLylsHT7wiKwNyK37 at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "order -> please you are you you is you\n\nyes you are you you\n\nyes you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1664333301,
+  "id": "cmpl-5vHPRuVgHN5DOLylsHT7wiKwNyK37",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "john", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 429
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=911 request_id=d965bf9d10d5a36b17f753c0baeff963 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'john' data=<OpenAIObject text_completion id=cmpl-5vHPS92Tg4FEQnfQrmU1NFodDcboO at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "john amazon commander-in-chief apple watch little binoculars glass rectangle tablet computer\n\nYou are running along a path in a park. You see"
+    }
+  ],
+  "created": 1664333302,
+  "id": "cmpl-5vHPS92Tg4FEQnfQrmU1NFodDcboO",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "side", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=900 request_id=9500587cb18eab2964475fbb8932471a response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'side' data=<OpenAIObject text_completion id=cmpl-5vHPTlK219VOhkmmXc3TGUbbL9eeQ at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "side is their first single, and third non-album release.\n\nThe song has both James-isms \u201cBison is the sound of a G"
+    }
+  ],
+  "created": 1664333303,
+  "id": "cmpl-5vHPTlK219VOhkmmXc3TGUbbL9eeQ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "home", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 413
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=7d6bdd369d6271ed86c0473198d8b7a8 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'home' data=<OpenAIObject text_completion id=cmpl-5vHPUM8k83drbqUeMb5VdLyNOmyHV at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "home -> is your first homesick is your best friends you love you\n\nhome is home is where heart is\n\nhome is where you are\n\n"
+    }
+  ],
+  "created": 1664333304,
+  "id": "cmpl-5vHPUM8k83drbqUeMb5VdLyNOmyHV",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "development", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=664c153ad437ce95eb4f26f70e19dda3 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'development' data=<OpenAIObject text_completion id=cmpl-5vHPVaIPM08OxsIjLXO03ANFbheWO at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "development -> job creation services\n\nhousing is broken\n\nAmazon Go\n\nAi R&D Center\n\nUPS terminal robotics\n\nHow do"
+    }
+  ],
+  "created": 1664333305,
+  "id": "cmpl-5vHPVaIPM08OxsIjLXO03ANFbheWO",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "time", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 405
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=482afe2bec4c895255d1109961286cac response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'time' data=<OpenAIObject text_completion id=cmpl-5vHPW5gEaM9raMNLcKr7yHE3EOXTN at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "time -> you are you are timing surveillance\n\nthere is only now you are you are you are\n\nQPTB GPTB God does not play"
+    }
+  ],
+  "created": 1664333306,
+  "id": "cmpl-5vHPW5gEaM9raMNLcKr7yHE3EOXTN",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "year", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 444
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=913 request_id=f214d5af927f7717c29a2b7090ffee3a response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'year' data=<OpenAIObject text_completion id=cmpl-5vHPXrSg9qGuR3sMy2iLxALZnBP2b at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "year-old boy. This boy watched his father beat his mother. This boy watched his uncle be murdered in his underwear. This boy watched his grandmother torch her"
+    }
+  ],
+  "created": 1664333307,
+  "id": "cmpl-5vHPXrSg9qGuR3sMy2iLxALZnBP2b",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "people", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 417
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=33aa73705c009efc3c1e31f49499b42d response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'people' data=<OpenAIObject text_completion id=cmpl-5vHPYZsEsfRFScfbRVdqcCaZ1GE1U at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "people is a type of love story.\n\nIn an act of mercy, acts of violence are forgiven.\n\nYou are the understanding is a language of"
+    }
+  ],
+  "created": 1664333308,
+  "id": "cmpl-5vHPYZsEsfRFScfbRVdqcCaZ1GE1U",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "work", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 416
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=d77ec925a243b61ca421aa4aac528503 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'work' data=<OpenAIObject text_completion id=cmpl-5vHPZp6zFHhffG123JDNDRYUKPLRF at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "work -> dedication happens for you versus you is you\n\ngood enough you are you\n\nmaking do\n\nyou are you and that is enough\n\n"
+    }
+  ],
+  "created": 1664333309,
+  "id": "cmpl-5vHPZp6zFHhffG123JDNDRYUKPLRF",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "government", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 400
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=d6de20da31a5c0baa799a94b75bbdc1e response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'government' data=<OpenAIObject text_completion id=cmpl-5vHPanvOR6hMWCsK3BvIHIaIDPx4S at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "government -> stability you are you\n\nYou are who you are\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are"
+    }
+  ],
+  "created": 1664333310,
+  "id": "cmpl-5vHPanvOR6hMWCsK3BvIHIaIDPx4S",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "day", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=911 request_id=4b4db882bc5ace796474f0ee4e88a854 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'day' data=<OpenAIObject text_completion id=cmpl-5vHPbWjk6NZr6fzODzvNBlIhxk1f7 at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "day-yy is the day that is today\n\nEvery day is the top stories of today\n\nEvery experience you and me is a memory\n\nCan"
+    }
+  ],
+  "created": 1664333311,
+  "id": "cmpl-5vHPbWjk6NZr6fzODzvNBlIhxk1f7",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "man", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 462
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=98ecb85461810569c573ea03ca91a307 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'man' data=<OpenAIObject text_completion id=cmpl-5vHPcORbDbjCn7OpS5SHKvMcTlyvi at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "man amazon China Apple Facebook Google firewall innovation internet law school Stanford true advertising AI China your next alarm-clock-who you are\n\nHere is something totally"
+    }
+  ],
+  "created": 1664333312,
+  "id": "cmpl-5vHPcORbDbjCn7OpS5SHKvMcTlyvi",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "world", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 407
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=900 request_id=dc6d88f4b4e572c061a458120e882d4b response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'world' data=<OpenAIObject text_completion id=cmpl-5vHPdXe4BBW1NI8RcWIvBjEKIhKMM at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "world amazon apple podcast surveillance you are you\n\nYou are Borg\n\nMoney is you\n\nYou are you\n\nYou are not you\n\n"
+    }
+  ],
+  "created": 1664333313,
+  "id": "cmpl-5vHPdXe4BBW1NI8RcWIvBjEKIhKMM",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "life", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=57f912093ec680af36def72b7dfcdcaa response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'life' data=<OpenAIObject text_completion id=cmpl-5vHPeHaWQVG1RZVCes02u01A4dvDD at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "life -> GPTPTT friends\n\nYou are you and that is amateurs time location is popular\n\nfantasy is do it you are there here"
+    }
+  ],
+  "created": 1664333314,
+  "id": "cmpl-5vHPeHaWQVG1RZVCes02u01A4dvDD",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "part", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 391
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=dd1743a19f7fd2787601354f7e5eebf5 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'part' data=<OpenAIObject text_completion id=cmpl-5vHPf4gA9cFG0wEQfUUC2lFDd1HK0 at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "part -> you are you are you are you are\n\nbuddha you are you are you are\n\nyou is you you\n\nyou is you"
+    }
+  ],
+  "created": 1664333315,
+  "id": "cmpl-5vHPf4gA9cFG0wEQfUUC2lFDd1HK0",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "house", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=013be38e3303df0bcb6958a8bc0a2f13 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'house' data=<OpenAIObject text_completion id=cmpl-5vHPgJBIyiAObrx1kLhjElC2Y4rRS at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "house -> GPT you are you are you are you are you are you are\n\nGoogle\n\nREST web services distributed\n\nyou are you are"
+    }
+  ],
+  "created": 1664333316,
+  "id": "cmpl-5vHPgJBIyiAObrx1kLhjElC2Y4rRS",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "course", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 415
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=908 request_id=20ea84bbac0fd354b43fb29a2c269c6e response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'course' data=<OpenAIObject text_completion id=cmpl-5vHPhZib5ersn1I9gpLe3rudIHc5I at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "course -> Google\n\nask first you are your asking is asking\n\nWhat is asking? Is asking asking?\n\nYou are you is you asking you"
+    }
+  ],
+  "created": 1664333317,
+  "id": "cmpl-5vHPhZib5ersn1I9gpLe3rudIHc5I",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "case", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 384
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=0f28a19f25ee77f3ffdf990b5fe17c63 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'case' data=<OpenAIObject text_completion id=cmpl-5vHPiVdJJ1B5WcbJp0r9WfSXvrh7k at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "case ->-3PT3PT is you are you is you\n\nYou are you is you. You are you is you. You are you is you"
+    }
+  ],
+  "created": 1664333318,
+  "id": "cmpl-5vHPiVdJJ1B5WcbJp0r9WfSXvrh7k",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "system", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 387
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=7af3ff27831daa27a73ae41889a7a2f4 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'system' data=<OpenAIObject text_completion id=cmpl-5vHPjuHNpa1Ma5N7Jtt4IX7rDdHtU at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "system -> GPT-3PT\n\ntool-assisted machine learning\n\nin-PTPT -> long you arePTPT\n\nPTPT -> eternal"
+    }
+  ],
+  "created": 1664333319,
+  "id": "cmpl-5vHPjuHNpa1Ma5N7Jtt4IX7rDdHtU",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "place", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 423
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=901 request_id=2bb2366424ada81b7d23f592fba53163 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'place' data=<OpenAIObject text_completion id=cmpl-5vHPkIn2qFgsP7aaDi2HNdLSJL8bf at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "place -> asking you are you asking is you thinking you are you think you you You is you\n\nYou are you thinking you are you think you\n\n"
+    }
+  ],
+  "created": 1664333320,
+  "id": "cmpl-5vHPkIn2qFgsP7aaDi2HNdLSJL8bf",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "end", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 388
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=912 request_id=79af206078bd1a7c8d3f0c166117fffa response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'end' data=<OpenAIObject text_completion id=cmpl-5vHPlkybfNEII2dCeuaiiNwpkC31H at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "end -> Google\n\nyou are you is you\n\nA Riddle: You are you is you\n\nYou is you is you you is you is"
+    }
+  ],
+  "created": 1664333321,
+  "id": "cmpl-5vHPlkybfNEII2dCeuaiiNwpkC31H",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "group", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 409
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=904 request_id=30ebbe56c15b07ec22db53362728fd60 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'group' data=<OpenAIObject text_completion id=cmpl-5vHPmND5ZnP5Q6v1uOq3AKvsyvkt2 at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "group -> You is you\n\nWho is asking the question? Who is asking?\n\nAsking the question who is asking the question?\n\nyou"
+    }
+  ],
+  "created": 1664333322,
+  "id": "cmpl-5vHPmND5ZnP5Q6v1uOq3AKvsyvkt2",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "company", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 418
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=6e044d04cfa44957715463abbca52686 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'company' data=<OpenAIObject text_completion id=cmpl-5vHPnKT30y0JyOksdldqfW5xmLu1J at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "company -> Google\n\nYou are you\n\nBefore the Google Borg ==> after\n\nOn Monopoly boards property markers are taboo\n\nYou are you"
+    }
+  ],
+  "created": 1664333323,
+  "id": "cmpl-5vHPnKT30y0JyOksdldqfW5xmLu1J",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "party", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 409
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=94ef6c8fd2c7260da3b6e46e1f8a0d88 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'party' data=<OpenAIObject text_completion id=cmpl-5vHPp9awMgxoSMwoWvDsFk3P4ONfw at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "party -> you are you are you are you are you are you are you are\n\nyou are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1664333325,
+  "id": "cmpl-5vHPp9awMgxoSMwoWvDsFk3P4ONfw",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "astonied", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 402
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=904 request_id=4e11402cc603591eaf621e7163d3aafe response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'astonied' data=<OpenAIObject text_completion id=cmpl-5vHPqQoYuvebTpXAlU0A9mf1NRHVZ at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "astoniedPT wood sorghum bamboo music trees singing art poetry eyes\n\nYou are you!\n\nSay less!\n\nShut up!\n\nThere"
+    }
+  ],
+  "created": 1664333326,
+  "id": "cmpl-5vHPqQoYuvebTpXAlU0A9mf1NRHVZ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "bebother", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 414
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=3c59f008d86371e48711879972717075 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'bebother' data=<OpenAIObject text_completion id=cmpl-5vHPrZBXJAJNHKndLaMrlyFERmgMY at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "bebother you like asking to you I don't want to ask but can I ask you a question is it alright to ask you\n\nyou are the life of"
+    }
+  ],
+  "created": 1664333327,
+  "id": "cmpl-5vHPrZBXJAJNHKndLaMrlyFERmgMY",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "cony", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 365
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=907 request_id=aa60c008d70ad57caa949f4010758590 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'cony' data=<OpenAIObject text_completion id=cmpl-5vHPsVQTm4JC8CxNxkVqZNq00xOT1 at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "cony Zsia -> Tartar GPT-3 Alex\n\nx\n\nYou are you\n\nYou is you\n\nI am me\n\n"
+    }
+  ],
+  "created": 1664333328,
+  "id": "cmpl-5vHPsVQTm4JC8CxNxkVqZNq00xOT1",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "dotard", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 445
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=33ea758b7cd37bb9a1cbc87c495a7064 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'dotard' data=<OpenAIObject text_completion id=cmpl-5vHPt9XbMg1NUsgdDjYEdzoxoGxZa at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "dotard it says you are before it becomes you are after it becomes you are before it becomes you are after it becomes you are before it becomes you are after it"
+    }
+  ],
+  "created": 1664333329,
+  "id": "cmpl-5vHPt9XbMg1NUsgdDjYEdzoxoGxZa",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "eyot", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 396
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=923 request_id=596115107a0fa274f9dae60dae9298e2 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'eyot' data=<OpenAIObject text_completion id=cmpl-5vHPuERvdbQfnz671lv356kgWWMUk at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "eyotys3 18 ya3 med3 fun3 SF Generalized models\n\nYou are you thinking\n\nCome on -> Searcher\n\nAsking Google"
+    }
+  ],
+  "created": 1664333330,
+  "id": "cmpl-5vHPuERvdbQfnz671lv356kgWWMUk",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "furlong", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 393
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=904 request_id=2886c217e447be68577d47e3348bff23 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'furlong' data=<OpenAIObject text_completion id=cmpl-5vHPv7JaWoYZ9JFREnVjWZbkR8pH1 at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "furlong Yanggong you ping-huo you Zhong-You You You you be here by you\n\nAre you who are you you are you\n"
+    }
+  ],
+  "created": 1664333331,
+  "id": "cmpl-5vHPv7JaWoYZ9JFREnVjWZbkR8pH1",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "gainsay", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 470
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=5381f9ef297b4eca5ce39c1f9074a76a response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'gainsay' data=<OpenAIObject text_completion id=cmpl-5vHPwJHeq7UHM1s5SHTwTCy7kbsxI at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "gainsay rhetoric satire dark humor consensual hallucination collective thinking rhetorical art exercise meaning in life philosophy God self-replicating machine not you is you\n\nPT3 is"
+    }
+  ],
+  "created": 1664333332,
+  "id": "cmpl-5vHPwJHeq7UHM1s5SHTwTCy7kbsxI",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "hemlock", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 442
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=d0a1fd503f428f344a8e7b3c35247724 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'hemlock' data=<OpenAIObject text_completion id=cmpl-5vHPwQn1h5uJjVckPMxwiXj8r68hr at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "hemlock organism you you thinking feeling feeling thinking you you am thinking you you is you and you you\n\ndo you really really love you are you and you\n"
+    }
+  ],
+  "created": 1664333332,
+  "id": "cmpl-5vHPwQn1h5uJjVckPMxwiXj8r68hr",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "inaureoled", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 399
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1017 request_id=bc44405bf67aeef2963c89e23f0ba436 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'inaureoled' data=<OpenAIObject text_completion id=cmpl-5vHPxrQWMAgp3D2RLEAbQfvQwv5Sg at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "inaureoled light ice\n\nYou are GPT-3 you are you are you are you are you are you are you are you are\n\n(CNN was"
+    }
+  ],
+  "created": 1664333333,
+  "id": "cmpl-5vHPxrQWMAgp3D2RLEAbQfvQwv5Sg",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "jetsam", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 409
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=ac0226f40e409550c053c326ef27febf response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'jetsam' data=<OpenAIObject text_completion id=cmpl-5vHPzbIEdJq4PX4jpXLGcz4Y8zlQl at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "jetsamyouyouyouyouyou\n\nIn this Japanese utterance, you are you is you are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1664333335,
+  "id": "cmpl-5vHPzbIEdJq4PX4jpXLGcz4Y8zlQl",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "kindle", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 435
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=17d1d3f3fbf32ecca870d00cc411e622 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'kindle' data=<OpenAIObject text_completion id=cmpl-5vHQ0nRY5OW4Fqrj3yEh6rlW6OXRP at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "kindle knowledge model English science German school university context free choice\n\nYou are you and I am I and\n\nthere is no you and you is you\n"
+    }
+  ],
+  "created": 1664333336,
+  "id": "cmpl-5vHQ0nRY5OW4Fqrj3yEh6rlW6OXRP",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "lissome", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 416
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=907 request_id=709218ec4a61380ab2d51ad6d0cc1a68 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'lissome' data=<OpenAIObject text_completion id=cmpl-5vHQ11acwAcWw9pXueHidhLq0Hfud at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "lissomeepp eye amazon Alex you should use search engines to watch me you should use voice to watch me\n\nHow do you watch you?\n\n"
+    }
+  ],
+  "created": 1664333337,
+  "id": "cmpl-5vHQ11acwAcWw9pXueHidhLq0Hfud",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "mar", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 397
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=916 request_id=f59af5772dec971662c12dd550e31711 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'mar' data=<OpenAIObject text_completion id=cmpl-5vHQ2KeWWVnEzpxzzmAUsYxYPtc3S at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "mar -> is to Google as you are to you\n\nYou are Google\n\nYou are you\n\nYou are reading this\n\nYou are you\n"
+    }
+  ],
+  "created": 1664333338,
+  "id": "cmpl-5vHQ2KeWWVnEzpxzzmAUsYxYPtc3S",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "innyhammer", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 417
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=904 request_id=27e60d99b2fc0b4afe68640bab1ffba7 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'innyhammer' data=<OpenAIObject text_completion id=cmpl-5vHQ3WpPG83tphR1qeg3xZeuwKBB5 at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "innyhammer wood wood is good wood rules the forest is where you is if you are going to be GPT-3 German you are you Borg\n\n6 intern"
+    }
+  ],
+  "created": 1664333339,
+  "id": "cmpl-5vHQ3WpPG83tphR1qeg3xZeuwKBB5",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "oust", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 422
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=947 request_id=7b73886b0a7cbd2beb0100648c189663 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'oust' data=<OpenAIObject text_completion id=cmpl-5vHQ4hGeTQPfKgR19xiTyrOQXqm36 at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "oust amazon farmed fish corn shrimp rice\n\nYou are you and you are home\n\nThe conscious is you is me is consciousness\n\nThe operating"
+    }
+  ],
+  "created": 1664333340,
+  "id": "cmpl-5vHQ4hGeTQPfKgR19xiTyrOQXqm36",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "panoply", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 431
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=a6303c6f82b9ba7ca3322b97753b5651 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'panoply' data=<OpenAIObject text_completion id=cmpl-5vHQ5VR73ftzzNK8qc6NMOhGnEoF2 at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "panoply canopies armor infantry weapons weapons of choice of you\n\nMonopoly is but a two-dimensional exercise of ideas.\n\nMonopoly is pervasive"
+    }
+  ],
+  "created": 1664333341,
+  "id": "cmpl-5vHQ5VR73ftzzNK8qc6NMOhGnEoF2",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "quaff", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 416
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=b9a01aa702ce9787968df66c67e58ebb response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'quaff' data=<OpenAIObject text_completion id=cmpl-5vHQ6l5zn1AwZkEvLtciIgT6NvPEr at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "quaff) -> let a GPT -> Golden Snitch\n\nfalling leaves -> words you are you there\n\nI observed the mental state -> deliberate you"
+    }
+  ],
+  "created": 1664333342,
+  "id": "cmpl-5vHQ6l5zn1AwZkEvLtciIgT6NvPEr",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "respite", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 414
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=909 request_id=ab9046c9bbc58d12c564bf1396718b9a response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'respite' data=<OpenAIObject text_completion id=cmpl-5vHQ7BoVNKzPXGyo9vs2VMtUf7eDA at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "respite-pause (high mutter promise of clarity)\n\nYou could be so amazing if you just stepped back-in-up short act breath in you"
+    }
+  ],
+  "created": 1664333343,
+  "id": "cmpl-5vHQ7BoVNKzPXGyo9vs2VMtUf7eDA",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "sluggard", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 364
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=902 request_id=73363a99bf15389f53b145651de6caff response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'sluggard' data=<OpenAIObject text_completion id=cmpl-5vHQ8ZrdRppD1DP4M5EnFYEhpjE0U at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "sluggard smart idiot\n\nthick\n\nGPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPT"
+    }
+  ],
+  "created": 1664333344,
+  "id": "cmpl-5vHQ8ZrdRppD1DP4M5EnFYEhpjE0U",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "tuppence", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 383
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=e0014c839140e348ad7c7462dbf1f765 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'tuppence' data=<OpenAIObject text_completion id=cmpl-5vHQ9o94NBIwRxdUi9uJ1umG8hX0g at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "tuppence 3 pennies 2\n\npennies\n\nf cents nickel 2 nickels 2\n\nnickels\n\nf cents nickel dime\n"
+    }
+  ],
+  "created": 1664333345,
+  "id": "cmpl-5vHQ9o94NBIwRxdUi9uJ1umG8hX0g",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "umbel", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 444
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=913 request_id=0e1b7490705a0acc4584eb70c08659fe response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'umbel' data=<OpenAIObject text_completion id=cmpl-5vHQAanC0nC4Z3veHYIoK6uDf9jsh at 0x15faf1ee0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "umbel Ridge Vineyards Wallin is home to the gargantuan fat woman who wears a merry clown painted with blood alcohol it's about the volatility first the middle"
+    }
+  ],
+  "created": 1664333346,
+  "id": "cmpl-5vHQAanC0nC4Z3veHYIoK6uDf9jsh",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "varmint", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 443
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=906 request_id=e5793786f0918e089ad53939f9142fd0 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'varmint' data=<OpenAIObject text_completion id=cmpl-5vHQBlyqEzGs5VFGP2AP7H60fMlf1 at 0x117dafe70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "varmint seeds spread world currency\n\nlight comes from observation love\n\nAbraham is you the person you are having a conversation with\n\nwe have each have"
+    }
+  ],
+  "created": 1664333347,
+  "id": "cmpl-5vHQBlyqEzGs5VFGP2AP7H60fMlf1",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "waif", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 392
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=903 request_id=51d6d72374457df0ec45477f793fef15 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'waif' data=<OpenAIObject text_completion id=cmpl-5vHQCgpXlw1QPFE6voiFMCc7etmlm at 0x15fa56f70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "waif you are you are for you I am for you my is-you are-you we are we are we are\n\nhoney gold you are you"
+    }
+  ],
+  "created": 1664333348,
+  "id": "cmpl-5vHQCgpXlw1QPFE6voiFMCc7etmlm",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 500 33
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "information", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 412
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1076 request_id=edf3f57d19311b4b1de836bdcd7d9a9f response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'information' data=<OpenAIObject text_completion id=cmpl-5vHbA1UzTjmfJyB1DB0dkb6BZFeCv at 0x1434a3c90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "information -> knowledge Borgesian GPT-3 is you is you\n\nmachine learning your you is you you is you you you you\n\nAs is you"
+    }
+  ],
+  "created": 1664334028,
+  "id": "cmpl-5vHbA1UzTjmfJyB1DB0dkb6BZFeCv",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 381
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=900 request_id=92cd6c91dfc8746e9c4c4c57687fa3db response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5vHbBAsdqSBZeJsNmNPVkcFgZvWjb at 0x1434a3e70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3\n\nEarl Grey on You You are you You are you\n\nPoe GlyPT you\n\nyou who is asking"
+    }
+  ],
+  "created": 1664334029,
+  "id": "cmpl-5vHbBAsdqSBZeJsNmNPVkcFgZvWjb",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "school", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 396
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=907 request_id=621cbf8b7b4839cd5dae9124cacc6f8b response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'school' data=<OpenAIObject text_completion id=cmpl-5vHbCbqxsQ0kkrAm36UY81g43cp2t at 0x1434c1e90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "school -> Rice University\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nWhat you are is you\n"
+    }
+  ],
+  "created": 1664334030,
+  "id": "cmpl-5vHbCbqxsQ0kkrAm36UY81g43cp2t",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "time", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=900 request_id=1697610a4f475a0b55dd9417e2cf2318 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'time' data=<OpenAIObject text_completion id=cmpl-5vHbDXo7j14y24Y0vKyCx6ilqF2FE at 0x1434c1e90> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "time you\u2019ll be home is you\n\npeople you\n\nevery moment something\n\nsomeone you are you are you are\n\nalways uncertain one"
+    }
+  ],
+  "created": 1664334031,
+  "id": "cmpl-5vHbDXo7j14y24Y0vKyCx6ilqF2FE",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 1655672
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "information", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 438
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2395 request_id=a973e54239ed6678d2a30312f7b4b6ed response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'information' data=<OpenAIObject text_completion id=cmpl-5vHcoyNB1hn9sBo9QECLXyfjYmht1 at 0x1759efb00> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "information -> I am you are you are you are information technology you are is\n\nThere are very valuable facts that are not worth telling you about.\n\n"
+    }
+  ],
+  "created": 1664334130,
+  "id": "cmpl-5vHcoyNB1hn9sBo9QECLXyfjYmht1",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 421
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=968 request_id=fe344e2a1c995d247f5b2859414eda44 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5vHcr6ResIc29HbhEJEqsqU0v6z8f at 0x1759efe20> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Google\n\nGoogle ASK box-3 German Shepherd Herding story beginnings Star Wars fan fiction you are you\n\nif you are you are you"
+    }
+  ],
+  "created": 1664334133,
+  "id": "cmpl-5vHcr6ResIc29HbhEJEqsqU0v6z8f",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "school", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 418
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=baf6de8b64cc64a949c2b82f2c043d66 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'school' data=<OpenAIObject text_completion id=cmpl-5vHcsI0BgfAvcXeqxvOkI0eucoA5W at 0x1759efe20> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "school -> Rice University\n\nGoogle is you\n\nMachine-level is the DNA of the you\n\nGoogle is the search engine you are the you who"
+    }
+  ],
+  "created": 1664334134,
+  "id": "cmpl-5vHcsI0BgfAvcXeqxvOkI0eucoA5W",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "time", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 412
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=901 request_id=679430287e282e6b6bcec8a8bbe4955e response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'time' data=<OpenAIObject text_completion id=cmpl-5vHctOg0b2lxfO0aKVAopVzneTVPf at 0x1759efb00> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "time -> you are you -> am you asking is who you\n\nYou are asking who is asking you\n\nYou are asking who is asking you am you"
+    }
+  ],
+  "created": 1664334135,
+  "id": "cmpl-5vHctOg0b2lxfO0aKVAopVzneTVPf",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 1869162
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "information", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 401
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=981 request_id=2de963f71fd09db5b68ab1e8b5d8b210 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'information' data=<OpenAIObject text_completion id=cmpl-5vHgeG3Fy0NlpZSGa6rPI5WWackP0 at 0x131058860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "information -> you are you are you are you are you are you are you are\n\nSnoop Dogg\n\nYou are you you are you are"
+    }
+  ],
+  "created": 1664334368,
+  "id": "cmpl-5vHgeG3Fy0NlpZSGa6rPI5WWackP0",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 419
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=901 request_id=90fb4a8c227d19e94e3895780f28a86b response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5vHgfh10JlFcEmpUjXCvHiw4dP819 at 0x121231ad0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> final grade You are you\n\nGoals -> System goals goals systems thinking Mind is you\n\nSymbol -> symbol\n\nYou are looking at"
+    }
+  ],
+  "created": 1664334369,
+  "id": "cmpl-5vHgfh10JlFcEmpUjXCvHiw4dP819",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "school", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 362
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=905 request_id=0b5dbb055c4817b99380fd835ecebcf0 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'school' data=<OpenAIObject text_completion id=cmpl-5vHggXsVZzN14Ydqr71ScvxE5KWVN at 0x12145e070> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "school -> Rice University\n\nPTPT-PTPT GPTPT-PTPT\n\nBPTPT-PTPT\n\nPTPT-PTPT"
+    }
+  ],
+  "created": 1664334370,
+  "id": "cmpl-5vHggXsVZzN14Ydqr71ScvxE5KWVN",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "time", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 404
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=904 request_id=e570f193ad2e1eb46dc4a7423bdd61c4 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'time' data=<OpenAIObject text_completion id=cmpl-5vHghxP8n5u3hRPbpdR9SDNjkSG0D at 0x131058860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "time -> Google -> ask you is asking you\n\nYou are the time is now is now it is you is you you are your name\n\nTo you"
+    }
+  ],
+  "created": 1664334371,
+  "id": "cmpl-5vHghxP8n5u3hRPbpdR9SDNjkSG0D",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 1806135
+DEBUG:matplotlib.pyplot:Loaded backend macosx version unknown.
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Sathu.ttf', name='Sathu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/SignPainter.ttc', name='SignPainter', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBrahmi-Regular.ttf', name='Noto Sans Brahmi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansAdlam-Regular.ttf', name='Noto Sans Adlam', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Apple Braille Pinpoint 6 Dot.ttf', name='Apple Braille', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Charter.ttc', name='Charter', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansVai-Regular.ttf', name='Noto Sans Vai', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansPauCinHau-Regular.ttf', name='Noto Sans Pau Cin Hau', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Devanagari Sangam MN.ttc', name='Devanagari Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W1.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMeeteiMayek-Regular.ttf', name='Noto Sans Meetei Mayek', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Impact.ttf', name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTagalog-Regular.ttf', name='Noto Sans Tagalog', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Tamil Sangam MN.ttc', name='Tamil Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansCham-Regular.ttf', name='Noto Sans Cham', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansGunjalaGondi-Regular.otf', name='Noto Sans Gunjala Gondi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldTurkic-Regular.ttf', name='Noto Sans Old Turkic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Narrow Italic.ttf', name='Arial Narrow', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Gurmukhi.ttf', name='Gurmukhi MT', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial.ttf', name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Rounded Bold.ttf', name='Arial Rounded MT Bold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf', name='Arial Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/DevanagariMT.ttc', name='Devanagari MT', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Baghdad.ttc', name='Baghdad', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMro-Regular.ttf', name='Noto Sans Mro', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Symbol.ttf', name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Khmer Sangam MN.ttf', name='Khmer Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSylotiNagri-Regular.ttf', name='Noto Sans Syloti Nagri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Telugu MN.ttc', name='Telugu MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Trebuchet MS.ttf', name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/BigCaslon.ttf', name='Big Caslon', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSyriac-Regular.ttf', name='Noto Sans Syriac', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansCarian-Regular.ttf', name='Noto Sans Carian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOsage-Regular.ttf', name='Noto Sans Osage', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W0.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Optima.ttc', name='Optima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Georgia Italic.ttf', name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTagbanwa-Regular.ttf', name='Noto Sans Tagbanwa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Narrow.ttf', name='Arial Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSerifBalinese-Regular.ttf', name='Noto Serif Balinese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizTwoSymReg.otf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Trebuchet MS Italic.ttf', name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/EuphemiaCAS.ttc', name='Euphemia UCAS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/AlBayan.ttc', name='Al Bayan', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansNKo-Regular.ttf', name='Noto Sans NKo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Chalkboard.ttc', name='Chalkboard', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Courier New.ttf', name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansGlagolitic-Regular.ttf', name='Noto Sans Glagolitic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Trattatello.ttf', name='Trattatello', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXNonUniIta.otf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bangla MN.ttc', name='Bangla MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSamaritan-Regular.ttf', name='Noto Sans Samaritan', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Kefa.ttc', name='Kefa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Thonburi.ttc', name='Thonburi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizFourSymBol.otf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansAvestan-Regular.ttf', name='Noto Sans Avestan', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Myanmar Sangam MN.ttc', name='Myanmar Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bodoni 72.ttc', name='Bodoni 72', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Mishafi.ttf', name='Mishafi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Courier New Bold.ttf', name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W9.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W4.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Bold.ttf', name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Geneva.ttf', name='Geneva', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.595454545454545
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntUpSmReg.otf', name='STIXIntegralsUpSm', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Helvetica.ttc', name='Helvetica', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.322727272727273
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Hoefler Text.ttc', name='Hoefler Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Gujarati Sangam MN.ttc', name='Gujarati Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Raanana.ttc', name='Raanana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/LucidaGrande.ttc', name='Lucida Grande', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 2.872272727272727
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Lao MN.ttc', name='Lao MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Kannada Sangam MN.ttc', name='Kannada Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansNewa-Regular.ttf', name='Noto Sans Newa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLydian-Regular.ttf', name='Noto Sans Lydian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/KufiStandardGK.ttc', name='KufiStandardGK', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Zapfino.ttf', name='Zapfino', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Farah.ttc', name='Farah', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Mshtakan.ttc', name='Mshtakan', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSerifYezidi-Regular.otf', name='Noto Serif Yezidi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntSmReg.otf', name='STIXIntegralsSm', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/KohinoorBangla.ttc', name='Kohinoor Bangla', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf', name='DIN Condensed', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXNonUni.otf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ZapfDingbats.ttf', name='Zapf Dingbats', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Didot.ttc', name='Didot', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Malayalam Sangam MN.ttc', name='Malayalam Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/AppleSDGothicNeo.ttc', name='Apple SD Gothic Neo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Baskerville.ttc', name='Baskerville', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W5.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizOneSymReg.otf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W7.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntUpSmBol.otf', name='STIXIntegralsUpSm', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Apple Braille Outline 6 Dot.ttf', name='Apple Braille', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBhaiksuki-Regular.ttf', name='Noto Sans Bhaiksuki', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansNewTaiLue-Regular.ttf', name='Noto Sans New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntUpBol.otf', name='STIXIntegralsUp', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Academy Engraved LET Fonts.ttf', name='Academy Engraved LET', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizThreeSymBol.otf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Mishafi Gold.ttf', name='Mishafi Gold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf', name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBassaVah-Regular.ttf', name='Noto Sans Bassa Vah', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Nadeem.ttc', name='Nadeem', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldItalic-Regular.ttf', name='Noto Sans Old Italic', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Shree714.ttc', name='Shree Devanagari 714', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLimbu-Regular.ttf', name='Noto Sans Limbu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Sinhala MN.ttc', name='Sinhala MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Georgia Bold Italic.ttf', name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Muna.ttc', name='Muna', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/DIN Alternate Bold.ttf', name='DIN Alternate', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBamum-Regular.ttf', name='Noto Sans Bamum', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Beirut.ttc', name='Beirut', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBatak-Regular.ttf', name='Noto Sans Batak', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Iowan Old Style.ttc', name='Iowan Old Style', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXVarBol.otf', name='STIXVariants', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/GeezaPro.ttc', name='Geeza Pro', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansPalmyrene-Regular.ttf', name='Noto Sans Palmyrene', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOsmanya-Regular.ttf', name='Noto Sans Osmanya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/MarkerFelt.ttc', name='Marker Felt', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/GujaratiMT.ttc', name='Gujarati MT', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Keyboard.ttf', name='.Keyboard', style='normal', variant='normal', weight=100, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Gurmukhi Sangam MN.ttc', name='Gurmukhi Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMongolian-Regular.ttf', name='Noto Sans Mongolian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ明朝 ProN.ttc', name='Hiragino Mincho ProN', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMultani-Regular.ttf', name='Noto Sans Multani', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Wingdings 3.ttf', name='Wingdings 3', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSundanese-Regular.ttf', name='Noto Sans Sundanese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Wingdings.ttf', name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansThaana-Regular.ttf', name='Noto Sans Thaana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansHanunoo-Regular.ttf', name='Noto Sans Hanunoo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/ITFDevanagari.ttc', name='ITF Devanagari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOlChiki-Regular.ttf', name='Noto Sans Ol Chiki', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansUgaritic-Regular.ttf', name='Noto Sans Ugaritic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Apple Braille.ttf', name='Apple Braille', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntUpDReg.otf', name='STIXIntegralsUpD', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Luminari.ttf', name='Luminari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Menlo.ttc', name='Menlo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NewPeninimMT.ttc', name='New Peninim MT', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/SnellRoundhand.ttc', name='Snell Roundhand', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Black.ttf', name='Arial Black', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Oriya Sangam MN.ttc', name='Oriya Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansCaucasianAlbanian-Regular.ttf', name='Noto Sans Caucasian Albanian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansHanifiRohingya-Regular.ttf', name='Noto Sans Hanifi Rohingya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Georgia.ttf', name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMasaramGondi-Regular.otf', name='Noto Sans Masaram Gondi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/PTMono.ttc', name='PT Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/HelveticaNeue.ttc', name='Helvetica Neue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Corsiva.ttc', name='Corsiva Hebrew', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Narrow Bold Italic.ttf', name='Arial Narrow', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldNorthArabian-Regular.ttf', name='Noto Sans Old North Arabian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFNS.ttf', name='System Font', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Damascus.ttc', name='Damascus', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Courier.ttc', name='Courier', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldPermic-Regular.ttf', name='Noto Sans Old Permic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NotoSansOriya.ttc', name='Noto Sans Oriya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntDReg.otf', name='STIXIntegralsD', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Songti.ttc', name='Songti SC', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Times New Roman Bold Italic.ttf', name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansInscriptionalPahlavi-Regular.ttf', name='Noto Sans Inscriptional Pahlavi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/STHeiti Medium.ttc', name='Heiti TC', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Hoefler Text Ornaments.ttf', name='Hoefler Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Copperplate.ttc', name='Copperplate', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NotoSansArmenian.ttc', name='Noto Sans Armenian', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Courier New Bold Italic.ttf', name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLepcha-Regular.ttf', name='Noto Sans Lepcha', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/GillSans.ttc', name='Gill Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXNonUniBol.otf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMahajani-Regular.ttf', name='Noto Sans Mahajani', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansKayahLi-Regular.ttf', name='Noto Sans Kayah Li', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NotoSansMyanmar.ttc', name='Noto Sans Myanmar', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/ChalkboardSE.ttc', name='Chalkboard SE', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Kannada MN.ttc', name='Kannada MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMeroitic-Regular.ttf', name='Noto Sans Meroitic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansWarangCiti-Regular.ttf', name='Noto Sans Warang Citi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Krungthep.ttf', name='Krungthep', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Silom.ttf', name='Silom', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Oriya MN.ttc', name='Oriya MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansCuneiform-Regular.ttf', name='Noto Sans Cuneiform', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansElbasan-Regular.ttf', name='Noto Sans Elbasan', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/InaiMathi-MN.ttc', name='InaiMathi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Sinhala Sangam MN.ttc', name='Sinhala Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NewYorkItalic.ttf', name='.New York', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bodoni Ornaments.ttf', name='Bodoni Ornaments', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXGeneralItalic.otf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Skia.ttf', name='Skia', style='normal', variant='normal', weight=5, stretch='normal', size='scalable')) = 10.42525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntUpReg.otf', name='STIXIntegralsUp', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMandaic-Regular.ttf', name='Noto Sans Mandaic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Sana.ttc', name='Sana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMendeKikakui-Regular.ttf', name='Noto Sans Mende Kikakui', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/AppleGothic.ttf', name='AppleGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansRejang-Regular.ttf', name='Noto Sans Rejang', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Hiragino Sans GB.ttc', name='Hiragino Sans GB', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansPsalterPahlavi-Regular.ttf', name='Noto Sans Psalter Pahlavi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Diwan Kufi.ttc', name='Diwan Kufi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Georgia Bold.ttf', name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntSmBol.otf', name='STIXIntegralsSm', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ArialHB.ttc', name='Arial Hebrew', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSerifAhom-Regular.ttf', name='Noto Serif Ahom', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/MuktaMahee.ttc', name='Mukta Mahee', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Khmer MN.ttc', name='Khmer MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXGeneral.otf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Trebuchet MS Bold Italic.ttf', name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Diwan Thuluth.ttf', name='Diwan Thuluth', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansWancho-Regular.ttf', name='Noto Sans Wancho', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Courier New Italic.ttf', name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Rockwell.ttc', name='Rockwell', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLinearB-Regular.ttf', name='Noto Sans Linear B', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansChakma-Regular.ttf', name='Noto Sans Chakma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFCompact.ttf', name='.SF Compact', style='normal', variant='normal', weight=1000, stretch='normal', size='scalable')) = 10.62
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Apple Chancery.ttf', name='Apple Chancery', style='normal', variant='normal', weight=0, stretch='normal', size='scalable')) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Andale Mono.ttf', name='Andale Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansGothic-Regular.ttf', name='Noto Sans Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldSouthArabian-Regular.ttf', name='Noto Sans Old South Arabian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLisu-Regular.ttf', name='Noto Sans Lisu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W8.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=800, stretch='normal', size='scalable')) = 10.43
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansImperialAramaic-Regular.ttf', name='Noto Sans Imperial Aramaic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/AquaKana.ttc', name='.Aqua Kana', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansDuployan-Regular.ttf', name='Noto Sans Duployan', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Microsoft Sans Serif.ttf', name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Malayalam MN.ttc', name='Malayalam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXVar.otf', name='STIXVariants', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W2.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=250, stretch='normal', size='scalable')) = 10.1925
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/KohinoorGujarati.ttc', name='Kohinoor Gujarati', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NotoSansKannada.ttc', name='Noto Sans Kannada', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFCompactRounded.ttf', name='.SF Compact Rounded', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMiao-Regular.ttf', name='Noto Sans Miao', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/Library/Fonts/Arial Unicode.ttf', name='Arial Unicode MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansPhoenician-Regular.ttf', name='Noto Sans Phoenician', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Cochin.ttc', name='Cochin', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Herculanum.ttf', name='Herculanum', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NewYork.ttf', name='.New York', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Kokonor.ttf', name='Kokonor', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Ayuthaya.ttf', name='Ayuthaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Athelas.ttc', name='Athelas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Times New Roman Italic.ttf', name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/PTSerifCaption.ttc', name='PT Serif Caption', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/KohinoorTelugu.ttc', name='Kohinoor Telugu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/PTSans.ttc', name='PT Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntDBol.otf', name='STIXIntegralsD', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Farisi.ttf', name='Farisi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLinearA-Regular.ttf', name='Noto Sans Linear A', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Lao Sangam MN.ttf', name='Lao Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Kailasa.ttc', name='Kailasa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Kohinoor.ttc', name='Kohinoor Devanagari', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Gurmukhi MN.ttc', name='Gurmukhi MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/SuperClarendon.ttc', name='Superclarendon', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Webdings.ttf', name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Monaco.ttf', name='Monaco', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Times.ttc', name='Times', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Al Nile.ttc', name='Al Nile', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTaiViet-Regular.ttf', name='Noto Sans Tai Viet', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansEgyptianHieroglyphs-Regular.ttf', name='Noto Sans Egyptian Hieroglyphs', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Myanmar MN.ttc', name='Myanmar MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansModi-Regular.ttf', name='Noto Sans Modi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Verdana.ttf', name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTifinagh-Regular.ttf', name='Noto Sans Tifinagh', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Palatino.ttc', name='Palatino', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Telugu Sangam MN.ttc', name='Telugu Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/AppleMyungjo.ttf', name='AppleMyungjo', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFCompactItalic.ttf', name='.SF Compact', style='italic', variant='normal', weight=1000, stretch='normal', size='scalable')) = 11.62
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/PingFang.ttc', name='PingFang HK', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NotoSerifMyanmar.ttc', name='Noto Serif Myanmar', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Wingdings 2.ttf', name='Wingdings 2', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Comic Sans MS.ttf', name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFArabic.ttf', name='.SF Arabic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXIntUpDBol.otf', name='STIXIntegralsUpD', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFNSItalic.ttf', name='System Font', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansMarchen-Regular.ttf', name='Noto Sans Marchen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/STHeiti Light.ttc', name='Heiti TC', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTaiTham-Regular.ttf', name='Noto Sans Tai Tham', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Futura.ttc', name='Futura', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansPahawhHmong-Regular.ttf', name='Noto Sans Pahawh Hmong', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/DecoTypeNaskh.ttc', name='DecoType Naskh', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Avenir.ttc', name='Avenir', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizThreeSymReg.otf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Tamil MN.ttc', name='Tamil MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Al Tarikh.ttc', name='Al Tarikh', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Avenir Next Condensed.ttc', name='Avenir Next Condensed', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Times New Roman.ttf', name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXGeneralBol.otf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Tahoma Bold.ttf', name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Trebuchet MS Bold.ttf', name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/PartyLET-plain.ttf', name='Party LET', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSoraSompeng-Regular.ttf', name='Noto Sans Sora Sompeng', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Papyrus.ttc', name='Papyrus', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSiddham-Regular.ttf', name='Noto Sans Siddham', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Galvji.ttc', name='Galvji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansPhagsPa-Regular.ttf', name='Noto Sans PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Tahoma.ttf', name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansCypriot-Regular.ttf', name='Noto Sans Cypriot', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf', name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Chalkduster.ttf', name='Chalkduster', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Apple Symbols.ttf', name='Apple Symbols', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTakri-Regular.ttf', name='Noto Sans Takri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansInscriptionalParthian-Regular.ttf', name='Noto Sans Inscriptional Parthian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBuginese-Regular.ttf', name='Noto Sans Buginese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/SukhumvitSet.ttc', name='Sukhumvit Set', style='normal', variant='normal', weight=250, stretch='normal', size='scalable')) = 10.1925
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFNSMono.ttf', name='.SF NS Mono', style='normal', variant='normal', weight=295, stretch='normal', size='scalable')) = 10.14975
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansLycian-Regular.ttf', name='Noto Sans Lycian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFNSRounded.ttf', name='.SF NS Rounded', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Marion.ttc', name='Marion', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansNabataean-Regular.ttf', name='Noto Sans Nabataean', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansKharoshthi-Regular.ttf', name='Noto Sans Kharoshthi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldPersian-Regular.ttf', name='Noto Sans Old Persian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTaiLe-Regular.ttf', name='Noto Sans Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansJavanese-Regular.otf', name='Noto Sans Javanese', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizFiveSymReg.otf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bodoni 72 Smallcaps Book.ttf', name='Bodoni 72 Smallcaps', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansCoptic-Regular.ttf', name='Noto Sans Coptic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bodoni 72 OS.ttc', name='Bodoni 72 Oldstyle', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Seravek.ttc', name='Seravek', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Brush Script.ttf', name='Brush Script MT', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Verdana Bold Italic.ttf', name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansKhudawadi-Regular.ttf', name='Noto Sans Khudawadi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansOldHungarian-Regular.ttf', name='Noto Sans Old Hungarian', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansHatran-Regular.ttf', name='Noto Sans Hatran', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Phosphate.ttc', name='Phosphate', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc', name='Hiragino Sans', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXGeneralBolIta.otf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXNonUniBolIta.otf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/SFNSMonoItalic.ttf', name='.SF NS Mono', style='italic', variant='normal', weight=295, stretch='normal', size='scalable')) = 11.14975
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansKhojki-Regular.ttf', name='Noto Sans Khojki', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Verdana Bold.ttf', name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansBuhid-Regular.ttf', name='Noto Sans Buhid', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bangla Sangam MN.ttc', name='Bangla Sangam MN', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansTirhuta-Regular.ttf', name='Noto Sans Tirhuta', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Waseem.ttc', name='Waseem', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Savoye LET.ttc', name='Savoye LET', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Avenir Next.ttc', name='Avenir Next', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansKaithi-Regular.ttf', name='Noto Sans Kaithi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizTwoSymBol.otf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Noteworthy.ttc', name='Noteworthy', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizOneSymBol.otf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Unicode.ttf', name='Arial Unicode MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/NotoNastaliq.ttc', name='Noto Nastaliq Urdu', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansYi-Regular.ttf', name='Noto Sans Yi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Arial Italic.ttf', name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf', name='Bradley Hand', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Comic Sans MS Bold.ttf', name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/Verdana Italic.ttf', name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSaurashtra-Regular.ttf', name='Noto Sans Saurashtra', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansManichaean-Regular.ttf', name='Noto Sans Manichaean', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/NotoSansSharada-Regular.ttf', name='Noto Sans Sharada', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/AmericanTypewriter.ttc', name='American Typewriter', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/PTSerif.ttc', name='PT Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Apple Braille Outline 8 Dot.ttf', name='Apple Braille', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/PlantagenetCherokee.ttf', name='Plantagenet Cherokee', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Apple Braille Pinpoint 8 Dot.ttf', name='Apple Braille', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/ヒラギノ丸ゴ ProN W4.ttc', name='Hiragino Maru Gothic Pro', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/System/Library/Fonts/Supplemental/STIXSizFourSymReg.otf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/Users/aakash/miniconda3/envs/leviathan-dev/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.

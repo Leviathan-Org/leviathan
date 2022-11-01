@@ -1,0 +1,2 @@
+test: test -> GPT-3 Test uses youYou are youYou are
+test1: test1 = 0test2 = y -> successsudo rm -rf DB

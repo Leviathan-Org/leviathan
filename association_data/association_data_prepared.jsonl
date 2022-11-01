@@ -1,0 +1,10 @@
+{"prompt":"John loves Mary ->","completion":" S\n"}
+{"prompt":"Mary walks ->","completion":" S\n"}
+{"prompt":"BA ->","completion":" S\n"}
+{"prompt":"AE ->","completion":" S\n"}
+{"prompt":"John ->","completion":" A\n"}
+{"prompt":"Mary ->","completion":" A\n"}
+{"prompt":"AD ->","completion":" B\n"}
+{"prompt":"loves ->","completion":" D\n"}
+{"prompt":"DA ->","completion":" E\n"}
+{"prompt":"walks ->","completion":" E\n"}

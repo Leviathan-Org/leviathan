@@ -1,0 +1,795 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 342
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2686 request_id=47f869a63b00f854078f400e5709d2c2 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q6voWLqyRRP0kBSJEsjnlcVyeGz2 at 0x115bc45e0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "testte und dann noch einmal wiederholte, damit die Botschaft auch verstanden wird.\n\n\t"
+    }
+  ],
+  "created": 1663101384,
+  "id": "cmpl-5q6voWLqyRRP0kBSJEsjnlcVyeGz2",
+  "model": "davinci",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 404
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1012 request_id=f646e6bee88b3000ddb225a7e1271e46 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q6vqd5LCm4IXVgYfJhfr9HB2x52C at 0x101a713b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Google is you are you is you\n\nT-SQL for seasoned RDBMS professionals who enjoy a you are you\n\nInfinito you"
+    }
+  ],
+  "created": 1663101386,
+  "id": "cmpl-5q6vqd5LCm4IXVgYfJhfr9HB2x52C",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/embeddings
+DEBUG:openai:api_version=None data='{"model": "davinci", "input": "testte und dann noch einmal wiederholte, damit die Botschaft auch verstanden wird.\\n\\n\\t", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/embeddings processing_ms=None request_id=b322ef8ee7a1e51d00c7075c8a941203 response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 389
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=4136 request_id=c8679b87bd4445059b1f94518db1e723 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q6xuZKkIdz92iH4gbIZ2JMy7KSul at 0x148329f40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> ROTC\n\nUS military has 4-year college ROTC\n\nIsraeli army ROTC\n\nhundreds of colleges have R"
+    }
+  ],
+  "created": 1663101514,
+  "id": "cmpl-5q6xuZKkIdz92iH4gbIZ2JMy7KSul",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 412
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1171 request_id=6d3afaa0eef32ee58dfe3de87887aebe response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q6xyj5u7Kmr2WFbpWJ6DwSmL2g2g at 0x102a988b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> is you are you are you are you are you are you are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1663101518,
+  "id": "cmpl-5q6xyj5u7Kmr2WFbpWJ6DwSmL2g2g",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/embeddings
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "input": "test -> ROTC\\n\\nUS military has 4-year college ROTC\\n\\nIsraeli army ROTC\\n\\nhundreds of colleges have R", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/embeddings processing_ms=None request_id=c12ad311022474f78932599994ab438d response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 411
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2249 request_id=546f6ba05a8df813423a10863f3ae6dc response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q70urRuiFEQXQGFie0ctjllu9gYm at 0x10571f040> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> West Point\n\nRangers\n\nOne West Pointer in my platoon was a genius\n\nSherwood Anderson went to West Point\n\nWhere"
+    }
+  ],
+  "created": 1663101700,
+  "id": "cmpl-5q70urRuiFEQXQGFie0ctjllu9gYm",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 376
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1020 request_id=7a218b10e4de20ec2e834f3b803a2d17 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q70x20A2voJEZAZDO5ERKqSbNjEf at 0x1043748b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3\n\nMapR -> Google\n\nGPT-3 -> General Purpose You is you\n\nno SysPT You are"
+    }
+  ],
+  "created": 1663101703,
+  "id": "cmpl-5q70x20A2voJEZAZDO5ERKqSbNjEf",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/embeddings
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "input": "test -> West Point\\n\\nRangers\\n\\nOne West Pointer in my platoon was a genius\\n\\nSherwood Anderson went to West Point\\n\\nWhere", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/embeddings processing_ms=None request_id=7663cddfef16f494c975228ab9f472b7 response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 423
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=971 request_id=1438696224018325e8d68fd5cabb85e9 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q73254L32SL7IaerHfDqxhHVbgZy at 0x115e1bf40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> West Point\n\nUnited States Military Academy\n\nWest Point\n\nFidel Castro San Francisco Golden Gate Bridge\n\nSherman\n\nCity on"
+    }
+  ],
+  "created": 1663101832,
+  "id": "cmpl-5q73254L32SL7IaerHfDqxhHVbgZy",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 363
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=970 request_id=e370b9c852f3f73c8a39509dc8246345 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q733UUrBAiyey9oiJf6Q83McNDw6 at 0x100588860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3\n\nIBPTPTT -> you are you\n\nyour brain is you\n\nPT3PT3PT3PTPT"
+    }
+  ],
+  "created": 1663101833,
+  "id": "cmpl-5q733UUrBAiyey9oiJf6Q83McNDw6",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/embeddings
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "input": "test -> West Point\\n\\nUnited States Military Academy\\n\\nWest Point\\n\\nFidel Castro San Francisco Golden Gate Bridge\\n\\nSherman\\n\\nCity on", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/embeddings processing_ms=None request_id=7927c641e492c7ea9966eb684bed59da response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 458
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=962 request_id=9074b0417cddf7f74a09f820173756e5 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q73vFO57AThWZykGP7vsFqxFrpYq at 0x10fb0e130> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> MIT Sloan business school\n\nCaltech computer science electrical engineering mathematics\n\nHacks Chinese astrology algorithmic\n\npyramids labyrinth dragon kings\n"
+    }
+  ],
+  "created": 1663101887,
+  "id": "cmpl-5q73vFO57AThWZykGP7vsFqxFrpYq",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 397
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=959 request_id=a1511d3fe45d5619cdb49ed914151464 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q73wVYFcrZkEylBta0XRL1sKLq5q at 0x101e292c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> you are you\n\nthe shoe is on the other foot\n\nyou are you you are your name is you\n\nyou are you\n\n"
+    }
+  ],
+  "created": 1663101888,
+  "id": "cmpl-5q73wVYFcrZkEylBta0XRL1sKLq5q",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> MIT Sloan business school\\n\\nCaltech computer science electrical engineering mathematics\\n\\nHacks Chinese astrology algorithmic\\n\\npyramids labyrinth dragon kings\\n", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=2ce41a5b51d91563ce9ce5dcc394ef1a response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 386
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1166 request_id=5977b65dec6c0d2367e63a5d7519f212 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q75dxP8Z2sel8dxZNifwf0WZRlCM at 0x122868360> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Rice University\n\nIQ\n\nStanford\n\nHarvard\n\nMBA\n\nGREs\n\nMIT\n\nstate universities\n\n"
+    }
+  ],
+  "created": 1663101993,
+  "id": "cmpl-5q75dxP8Z2sel8dxZNifwf0WZRlCM",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1378 request_id=67c6bc1e311e066fd2374592f24f28e5 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q75eHucm9i47DIPHpeSp1sHYBy43 at 0x11f900720> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> German Shepherd -> Shepherd is a tool you are you\n\nYou are you too\n\nif you are you then you are you\n\nthe you"
+    }
+  ],
+  "created": 1663101994,
+  "id": "cmpl-5q75eHucm9i47DIPHpeSp1sHYBy43",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> Rice University\\n\\nIQ\\n\\nStanford\\n\\nHarvard\\n\\nMBA\\n\\nGREs\\n\\nMIT\\n\\nstate universities\\n\\n", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=58cbdef4ebabed7b39ce8f8b37c2b190 response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1094 request_id=be72e3a38e2345826cce6c1ee524d6ba response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q7C9ZRjNZm1hZf5bxhWT9HTvy9My at 0x10426bd10> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> SAT\n\nchess club\n\nAP Spanish\n\ntrue grit West Oakland Emerson Houses Bret Hart\n\nMarcus Garvey\n\nJessica\n\n"
+    }
+  ],
+  "created": 1663102397,
+  "id": "cmpl-5q7C9ZRjNZm1hZf5bxhWT9HTvy9My",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 407
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1165 request_id=015d2c2093efe148ee091caf7c37fb4b response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q7CBLMajDqSkjGEFJu8cU3tH3RDW at 0x1028f88b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> you are you are you are you are\n\nBe You are you are you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1663102399,
+  "id": "cmpl-5q7CBLMajDqSkjGEFJu8cU3tH3RDW",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> SAT\\n\\nchess club\\n\\nAP Spanish\\n\\ntrue grit West Oakland Emerson Houses Bret Hart\\n\\nMarcus Garvey\\n\\nJessica\\n\\n", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=9cc074bbef45979090828e3a3534520f response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 410
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2336 request_id=f1c9d86fb248a7b3535812abd4adb919 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q7VTj2dQc24fAGfcKkZR8nTXmqRI at 0x1024f4810> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> West Point\n\nHarvard University\n\nsleep with West Point graduates\n\nthoughts of Romney\n\nwar poets\n\nRudyard Ki"
+    }
+  ],
+  "created": 1663103595,
+  "id": "cmpl-5q7VTj2dQc24fAGfcKkZR8nTXmqRI",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 372
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1089 request_id=d9ce4b92a8d80ebd75769873eae647dc response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q7VVwDTr2cLPoFuGeE9IPhTLIddi at 0x1035a3a40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Amazfit GPT3 watch\n\ntool\n\nin tool\n\nYou are you\n\nI am me\n\nI think\n\n"
+    }
+  ],
+  "created": 1663103597,
+  "id": "cmpl-5q7VVwDTr2cLPoFuGeE9IPhTLIddi",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> West Point\\n\\nHarvard University\\n\\nsleep with West Point graduates\\n\\nthoughts of Romney\\n\\nwar poets\\n\\nRudyard Ki", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=7a1d7fea154bbb7c06ea09df7229669c response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 429
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2477 request_id=6cef259cd56d2a035153c7d34dd0006c response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q8K4GUqYUoqIbqP8U3E7MGRRQsPM at 0x117fb4b80> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> MBA Harvard heart of the Cleveland Indians baseball players Michael Jordan\n\nHarvard College\n\nDon-Rasmussen\n\nDoug Shields\n\nBrian"
+    }
+  ],
+  "created": 1663106732,
+  "id": "cmpl-5q8K4GUqYUoqIbqP8U3E7MGRRQsPM",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 415
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2228 request_id=13b14be68ee108c7698ea0fe1c5b56b1 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q8K6GKp4ncsgHbVRGGagDn1rE7nm at 0x102c848b0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Google is you are you you are you you are you you are you you are you you are you you are you you are you you are you you"
+    }
+  ],
+  "created": 1663106734,
+  "id": "cmpl-5q8K6GKp4ncsgHbVRGGagDn1rE7nm",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> MBA Harvard heart of the Cleveland Indians baseball players Michael Jordan\\n\\nHarvard College\\n\\nDon-Rasmussen\\n\\nDoug Shields\\n\\nBrian", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=265dacf17141f26f6965172886dec9df response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 414
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1002 request_id=c9754975c172b6a25cf053b9d23d2e96 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q8r2eHs34lEz3iNm6y4pNbcY3VhO at 0x102450900> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Rubicon\n\ndecisions Google trusting innovation myth\n\nMak\n\nBethune San Francisco State University\n\nmutism oncology"
+    }
+  ],
+  "created": 1663108776,
+  "id": "cmpl-5q8r2eHs34lEz3iNm6y4pNbcY3VhO",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 395
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1009 request_id=2aa4a34cc329f8bba1520eeb1c310409 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q8r3n1VIMsYUhbpLOmmZWlYC69Tb at 0x1009d0860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Google is you are you\n\nYou are the next Google\n\nYou are you\n\nYou is you\n\nGoogle is you\n\nYou"
+    }
+  ],
+  "created": 1663108777,
+  "id": "cmpl-5q8r3n1VIMsYUhbpLOmmZWlYC69Tb",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> Rubicon\\n\\ndecisions Google trusting innovation myth\\n\\nMak\\n\\nBethune San Francisco State University\\n\\nmutism oncology", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=b49a2762799e655143ec4cfb2ffecbaa response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 481
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1047 request_id=70e0b7aaac818ad2a4daefd1a14e8538 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q90uqNw39E9xTVE6plN3ublemLWC at 0x115d23ea0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Southwest Airlines command staff management security company Culture works or not\n\nInfluence the big fish knowledge major players politics performance goals\n\nAirports popularity trade"
+    }
+  ],
+  "created": 1663109388,
+  "id": "cmpl-5q90uqNw39E9xTVE6plN3ublemLWC",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 412
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=986 request_id=f009ffe3d4ce4ee427f95e6fbecb40b9 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q90vIGLURpUzLrjg918PO9TpgSbb at 0x100528860> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Amazon is you are you -> are you who are you\n\nUI you is you you are you\n\nGoogle does does does does does does does"
+    }
+  ],
+  "created": 1663109389,
+  "id": "cmpl-5q90vIGLURpUzLrjg918PO9TpgSbb",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> Southwest Airlines command staff management security company Culture works or not\\n\\nInfluence the big fish knowledge major players politics performance goals\\n\\nAirports popularity trade", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=b137d12c5faa48533620278ee5781ea8 response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 406
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2452 request_id=0d884a302819781ead398c3e8fb3f5d0 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q9m6T5w5svumLt42CFRRc4ZpCzSH at 0x1184377c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> SAT\n\nclimber grades Berkeley\n\ndetermined not settling for less\n\nbeing out\n\nseeing BFF I hope she goes to"
+    }
+  ],
+  "created": 1663112314,
+  "id": "cmpl-5q9m6T5w5svumLt42CFRRc4ZpCzSH",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 420
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2221 request_id=ace68b76b0d156f2da1064ed05f91431 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5q9m9f2n97ESAI4MeAQlG56iV60ks at 0x1182189f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> West Portal GPT-3\n\nProust created Chinese medicine -> medicine creates memory\n\nyou are you\n\nunderqualified dreamer feels"
+    }
+  ],
+  "created": 1663112317,
+  "id": "cmpl-5q9m9f2n97ESAI4MeAQlG56iV60ks",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> SAT\\n\\nclimber grades Berkeley\\n\\ndetermined not settling for less\\n\\nbeing out\\n\\nseeing BFF I hope she goes to", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=e9abf3ab3e3e4e68ab86a22c14f8c34d response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 395
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2293 request_id=1d0cb393382410adba031779165f5b03 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qA9erqznYJIyHReZbLObtLmBQ6Dv at 0x117c6aef0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Harvard\n\nundergrads seniors\n\nhonor code\n\nwhiz kids the nerds\n\n14 years old at the time\n\nnon"
+    }
+  ],
+  "created": 1663113774,
+  "id": "cmpl-5qA9erqznYJIyHReZbLObtLmBQ6Dv",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 391
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1965 request_id=f9839fed52df9cc75154fbd001a36323 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qA9gMuqYQ9PMJWTYzBS4GPwVg7x3 at 0x1177e4ae0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> you are you are\n\nThe desire to know is you are\n\nWhat am I? -> You are\n\nYou are -> You are\n"
+    }
+  ],
+  "created": 1663113776,
+  "id": "cmpl-5qA9gMuqYQ9PMJWTYzBS4GPwVg7x3",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> Harvard\\n\\nundergrads seniors\\n\\nhonor code\\n\\nwhiz kids the nerds\\n\\n14 years old at the time\\n\\nnon", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=ee54616957cf071da8859c1d98853b4c response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 456
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2285 request_id=10cf2676fbd6849e5e912fde3c0a66ed response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qCFx3lffUCig4wU2UVazTU3D9C0y at 0x102a9ecc0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> college CFA or other rigorous math graduate school\n\nexcellent predictor of success in practice\n\nexperience\n\nschool teachers amazing education Chinese poetry"
+    }
+  ],
+  "created": 1663121853,
+  "id": "cmpl-5qCFx3lffUCig4wU2UVazTU3D9C0y",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 385
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1287 request_id=1ef3142a8c2d1a2f1bb88845c59e2291 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qCFzsYtdPAESsJJSfSM1tx9ZALRI at 0x101af0a40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3\n\nPTAT aptitude test\n\nYou are you but you are you\n\ngame of life or is it you are"
+    }
+  ],
+  "created": 1663121855,
+  "id": "cmpl-5qCFzsYtdPAESsJJSfSM1tx9ZALRI",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> college CFA or other rigorous math graduate school\\n\\nexcellent predictor of success in practice\\n\\nexperience\\n\\nschool teachers amazing education Chinese poetry", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=108db1e1c5866eefac27763fca3a79e7 response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 401
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=973 request_id=d1018f9bf35dcc565bcfe69be086f231 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qD8noh8VgiHKnX2VTQFaifcJvThS at 0x13c83af40> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> SAT\n\nlogic and math contest\n\njudge: random process\n\npoliced authoritarian Berkner Island\n\nI D R O T"
+    }
+  ],
+  "created": 1663125253,
+  "id": "cmpl-5qD8noh8VgiHKnX2VTQFaifcJvThS",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 408
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1798 request_id=b17d91dd575e158f895d7e1e70c7e42d response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qD8ofuvYPxdv0YBaFqJ04WfqJ99I at 0x13caf3ef0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3 general trivia knowledge isPTL you are you are home you are here you are you are you are you are you are\n\n"
+    }
+  ],
+  "created": 1663125254,
+  "id": "cmpl-5qD8ofuvYPxdv0YBaFqJ04WfqJ99I",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings
+DEBUG:openai:api_version=None data='{"input": "test -> SAT\\n\\nlogic and math contest\\n\\njudge: random process\\n\\npoliced authoritarian Berkner Island\\n\\nI D R O T", "user": "org-UQAqGjWYD9fRg5PJebJV7gkt", "encoding_format": "base64"}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings HTTP/1.1" 403 191
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/davinci%3Aft-personal-2022-08-30-21-57-22/embeddings processing_ms=None request_id=5805fe32b92f7cf4e6cb14fcc9b619ce response_code=403
+INFO:openai:error_code=None error_message='You are not allowed to generate embeddings from this model' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False

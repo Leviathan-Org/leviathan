@@ -1,0 +1,738 @@
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 390
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=976 request_id=a8354ccccf4a4b5fba845bc1935bc014 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoAQINzcpLo4cL1QLjQgd88ap6Zs at 0x11cd38770> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Google is you are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you\n\nYou are you"
+    }
+  ],
+  "created": 1663267582,
+  "id": "cmpl-5qoAQINzcpLo4cL1QLjQgd88ap6Zs",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 410
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=976 request_id=38ec203d14622fcb7db11ef12a924d82 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoAROkwxJi25RmoqfjJz9DdWXNQ1 at 0x1066c5b70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> LSAT\n\nUCLA\n\nbad grades Harvard\n\nHarvard law degree\n\nsmartest UC Berkeley\n\nWestwood love affair distraction"
+    }
+  ],
+  "created": 1663267583,
+  "id": "cmpl-5qoAROkwxJi25RmoqfjJz9DdWXNQ1",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 719447
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 382
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=964 request_id=2e076f7fa943e93da0e427d9d8ac64f0 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoBEMAq1thcp0wGPyhI91IJZVnxs at 0x105540220> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> YOU ARE YOU\n\nYou are you. I am me.\n\nIt is you. You are you. You are you. You are you"
+    }
+  ],
+  "created": 1663267632,
+  "id": "cmpl-5qoBEMAq1thcp0wGPyhI91IJZVnxs",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 442
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=990 request_id=8b46816f5425380d753fc2cc50b1d3ad response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoBFwvtPsPoujyL99hEthe7Y1UQ2 at 0x158b558a0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Harvard Business School\n\nOverachievers West Point West Point Annapolis\n\nintrospection\n\ncritical thinking\n\nThe final testing experiences Yale"
+    }
+  ],
+  "created": 1663267633,
+  "id": "cmpl-5qoBFwvtPsPoujyL99hEthe7Y1UQ2",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 888006
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 351
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=975 request_id=9770d278fb6ebcf2c8fb8066cb2da8fd response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoHMLiY4PWjSrnoE87YTWgRxLWmY at 0x1228b7fb0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3\n\nIBPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPTPT"
+    }
+  ],
+  "created": 1663268012,
+  "id": "cmpl-5qoHMLiY4PWjSrnoE87YTWgRxLWmY",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 414
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=991 request_id=3144ccdacb5151d0853f6955d1842898 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoHNIw8GfCxIybinVDgZDKmh3qLB at 0x12133bab0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> West Point\n\nRanger school\n\nvolcanic German Shepherd dogs\n\nDallas\n\nGerman Shepherd motto love\n\nguide dog duty\n"
+    }
+  ],
+  "created": 1663268013,
+  "id": "cmpl-5qoHNIw8GfCxIybinVDgZDKmh3qLB",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 825689
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=979 request_id=6159eb2ea9242ebd4049d1cfdb7d0238 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoHhssjqimeKBdsEubD2Xg9b78Ii at 0x102a05620> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> RPT Architects\n\n\u201cYou are who you are because you are who you are.\u201d Buckminster Fuller\n\n\u201cI am"
+    }
+  ],
+  "created": 1663268033,
+  "id": "cmpl-5qoHhssjqimeKBdsEubD2Xg9b78Ii",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 429
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=972 request_id=f016e10066c0d3f7f32a485975e94c21 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qoHidIv2PQvj3rrQeVv68tO8XFJg at 0x102920bd0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> AP German Fulbright scholarship\n\ninner German debate\n\nimportance of values friendships\n\nopenness toward the West\n\nKohl period\n"
+    }
+  ],
+  "created": 1663268034,
+  "id": "cmpl-5qoHidIv2PQvj3rrQeVv68tO8XFJg",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 798565
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 92679
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 92679
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 92679
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 169475
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 379
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=980 request_id=2a7e94eca15cc84ca52270923a379346 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qqYy1wHklz8rVGl1HSIastWGSEIz at 0x10751f3d0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> RASPTPT-PTPT you are you is you are Google GPT-3PTPT\n\nPTPT -> consciousness\n\nPTPT"
+    }
+  ],
+  "created": 1663276792,
+  "id": "cmpl-5qqYy1wHklz8rVGl1HSIastWGSEIz",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 413
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=977 request_id=0bbd3a3d637136ca655fe50498934bf9 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qqYzuQwwyKd3PoqR5KyeQFIcnfFc at 0x13f515b70> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> Harvard Business School\n\nelite hiring firm\n\nMIT spinoff\n\ncomputer science\n\nstartups\n\nSilicon Valley\n\nGoogle"
+    }
+  ],
+  "created": 1663276793,
+  "id": "cmpl-5qqYzuQwwyKd3PoqR5KyeQFIcnfFc",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 796767
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "cosine distance", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 446
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=952 request_id=ffa4cbbda7b99f0ed7b5c01aa57b09a5 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'cosine distance' data=<OpenAIObject text_completion id=cmpl-5qqa8xxI2TMoWjOxPwZ9xV5icHiWh at 0x11c019ad0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "cosine distance science Google knows\n\n2PT German Shepherd short-haired Long-haired Shepherd German Shepherd Shepherd family Rottweiler\n\nFamily You are you\n"
+    }
+  ],
+  "created": 1663276864,
+  "id": "cmpl-5qqa8xxI2TMoWjOxPwZ9xV5icHiWh",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "cosine distance", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 377
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=611 request_id=3982e362d5788a3762b33344a886e17a response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'cosine distance' data=<OpenAIObject text_completion id=cmpl-5qqa9qTiFlwU1C6Crq1S5vBNBDOoI at 0x11c0ffe20> JSON: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "cosine distance between them\n\nclick here to watch a video introduction to cosine similarity"
+    }
+  ],
+  "created": 1663276865,
+  "id": "cmpl-5qqa9qTiFlwU1C6Crq1S5vBNBDOoI",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 15,
+    "prompt_tokens": 3,
+    "total_tokens": 18
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 781122
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "cosine distance", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 423
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=947 request_id=70fdd6f41491cd0f6a499b7d673b5bd3 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'cosine distance' data=<OpenAIObject text_completion id=cmpl-5qqbAzsO1fVZEllpDAVqVDZIOedza at 0x106707150> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "cosine distance road trip Google Map YouTube\n\nYou are feeling lonely on the West Coast\n\nand need companionship, any takers?\n\neugrec"
+    }
+  ],
+  "created": 1663276928,
+  "id": "cmpl-5qqbAzsO1fVZEllpDAVqVDZIOedza",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "cosine distance", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 435
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=930 request_id=e54ee328985c09ab0978bc960840d14b response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'cosine distance' data=<OpenAIObject text_completion id=cmpl-5qqbC2VMBL8ZzHpIaVxxAIxemsVCW at 0x1601be610> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "cosine distance cosine entropy gap neighborhood observations\n\nsoundscape acoustics walk Oakland\n\nobserve wind\n\nThis is a point on San Francisco"
+    }
+  ],
+  "created": 1663276930,
+  "id": "cmpl-5qqbC2VMBL8ZzHpIaVxxAIxemsVCW",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 30,
+    "prompt_tokens": 3,
+    "total_tokens": 33
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 905514
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 363
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=956 request_id=74a621f802d53ed845236f73666994b6 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qqbwgn7P3TECQLTpwJ1XSC4jCZ3y at 0x117f4a2a0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> GPT-3PT\n\nYou are you\n\nYou are you\n\nPT-PT-PT-PT-PT you are you\n"
+    }
+  ],
+  "created": 1663276976,
+  "id": "cmpl-5qqbwgn7P3TECQLTpwJ1XSC4jCZ3y",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "test", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 439
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=934 request_id=8b870a12aaa5253c8af7449742ed3281 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'test' data=<OpenAIObject text_completion id=cmpl-5qqbxWMkMhRm2knDsuarTCQAUoSi1 at 0x102625df0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "test -> College Board SATs\n\nFriday coffee mornings TV channels\n\nCaltech sciences teaching literature magazine hard\n\nno grades or tests\n\ncuriosity"
+    }
+  ],
+  "created": 1663276977,
+  "id": "cmpl-5qqbxWMkMhRm2knDsuarTCQAUoSi1",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 827874
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 404
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=960 request_id=0aebfcffbcb130ca1d9d95399320cc91 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'you are you' data=<OpenAIObject text_completion id=cmpl-5qqcFnDyHrx8wvpOtKq62IllOUfZQ at 0x11bd204f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you-your you you\n\npajajo en pluto soy ego is who you are you are you are you are you are you are you are you"
+    }
+  ],
+  "created": 1663276995,
+  "id": "cmpl-5qqcFnDyHrx8wvpOtKq62IllOUfZQ",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "you are you", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 335
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=501 request_id=90969e5cb57493586fd70798fdfce0af response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'you are you' data=<OpenAIObject text_completion id=cmpl-5qqcGh1WTdU4ysoXZy4HEAZkL7Kx1 at 0x11bb82bb0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "text": "you are you\n\nof which Raman Curry decoder\n\nI am"
+    }
+  ],
+  "created": 1663276996,
+  "id": "cmpl-5qqcGh1WTdU4ysoXZy4HEAZkL7Kx1",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 13,
+    "prompt_tokens": 3,
+    "total_tokens": 16
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 720294
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "gpt-3", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 365
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=948 request_id=86af56ad6348733318ecca8f08c2753f response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'gpt-3' data=<OpenAIObject text_completion id=cmpl-5qqcXpAM09Rc35HNFoijajF2KOnGw at 0x10134a160> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "gpt-3 -> you\n\nEladys -> Ada\n\nYogi Berra -> GPT3-PTPT3\n\nWestley -> you\n\n"
+    }
+  ],
+  "created": 1663277013,
+  "id": "cmpl-5qqcXpAM09Rc35HNFoijajF2KOnGw",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 4,
+    "total_tokens": 35
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "gpt-3", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 354
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=924 request_id=9eb6d080b0683d9b39b51bf42f12b879 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'gpt-3' data=<OpenAIObject text_completion id=cmpl-5qqcYxUxPhcl6EnBJHAu2SJN6h78W at 0x12525f9c0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "gpt-3\n\ndisk0s2 firstboot\n\ndisk0s3 secondboot3\n\ngsg-tb3u3e4\n\n"
+    }
+  ],
+  "created": 1663277014,
+  "id": "cmpl-5qqcYxUxPhcl6EnBJHAu2SJN6h78W",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 4,
+    "total_tokens": 35
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 904031
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "write a tagline for an ice cream shop", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 472
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=983 request_id=0d17265a19ad88d9325ff248a133cb12 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'write a tagline for an ice cream shop' data=<OpenAIObject text_completion id=cmpl-5qqcoPua3FeV3LTwZJqI5TkbEelQB at 0x104da2160> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "write a tagline for an ice cream shop\n\nSo far, you have some fine words to describe what your product does, but you are still missing the magic that turns your product into a desirable"
+    }
+  ],
+  "created": 1663277030,
+  "id": "cmpl-5qqcoPua3FeV3LTwZJqI5TkbEelQB",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 9,
+    "total_tokens": 40
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "write a tagline for an ice cream shop", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=930 request_id=6608cdd8786f8fc753906ea9f922258d response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'write a tagline for an ice cream shop' data=<OpenAIObject text_completion id=cmpl-5qqcpVqQztVIhHZHOwXPWM89det8j at 0x12330f1f0> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "write a tagline for an ice cream shop that serves more than just ice cream\n\nwhat does it mean to \u201cwrite\u201d\n\nidea about taste and perception of flavor\n\n"
+    }
+  ],
+  "created": 1663277031,
+  "id": "cmpl-5qqcpVqQztVIhHZHOwXPWM89det8j",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 9,
+    "total_tokens": 40
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 1119274
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "Cleveland", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 427
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=988 request_id=95d52505d56b7a74bafaeb650741dd02 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'Cleveland' data=<OpenAIObject text_completion id=cmpl-5qqdYZVUrEXIOJv9gnJl8ox2gAgRw at 0x10364e160> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "Cleveland federal reserve timothy geithner liupei peak evans building isp-3 you are your advertising you are feeling thinking feeling\n\nI am"
+    }
+  ],
+  "created": 1663277076,
+  "id": "cmpl-5qqdYZVUrEXIOJv9gnJl8ox2gAgRw",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "Cleveland", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 392
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=933 request_id=4d11c0b8bc36e0f5efcde7621040ad7e response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'Cleveland' data=<OpenAIObject text_completion id=cmpl-5qqdZPqBkhJaZ9JWFtmWAJUWLLX5O at 0x10364e200> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "Cleveland\n\ntywooldridge neighbors\n\nkids\n\nfire\n\nhomeschool\n\nneighborhood\n\ngreen\n\nkids outside"
+    }
+  ],
+  "created": 1663277077,
+  "id": "cmpl-5qqdZPqBkhJaZ9JWFtmWAJUWLLX5O",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 3,
+    "total_tokens": 34
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 722670
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "rice", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 394
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=984 request_id=4db0f73648c463afdbc5301f94ff19ef response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'rice' data=<OpenAIObject text_completion id=cmpl-5qqg919HMJxzI4z7Hd2FU0bPFM24h at 0x101ce8d60> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "rice -> GPTPTT\n\nYou have to have money to make money\n\nYou have to have time to save time\n\nIf you don't"
+    }
+  ],
+  "created": 1663277237,
+  "id": "cmpl-5qqg919HMJxzI4z7Hd2FU0bPFM24h",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "rice", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 455
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=948 request_id=dfbe8e41eca0a46f3b4459dfe0d9740a response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'rice' data=<OpenAIObject text_completion id=cmpl-5qqgA1VOer1T7Ks1U0jX4kcHqyCO4 at 0x102e86890> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "rice -> Gorges Coca Cola friends spectacular nature Austin + Berg friends\n\n\n\ncoke waterfalls nature friends friendship red rocks rocks marble swimming climbing bould"
+    }
+  ],
+  "created": 1663277238,
+  "id": "cmpl-5qqgA1VOer1T7Ks1U0jX4kcHqyCO4",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 1,
+    "total_tokens": 32
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 889481
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-31-04-45-44", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "borges", "echo": true}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 401
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=945 request_id=41ab2dd233b101e101cb89da779ba880 response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-31-04-45-44' prompt=b'borges' data=<OpenAIObject text_completion id=cmpl-5qqgfNwNOa02jyLC9ovj8VITxl2aa at 0x11a21c720> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "borgesen forfatterfortellingen originalt\n\nBlader Gullfisk You are you are you are you are you are you are you are"
+    }
+  ],
+  "created": 1663277269,
+  "id": "cmpl-5qqgfNwNOa02jyLC9ovj8VITxl2aa",
+  "model": "davinci:ft-personal-2022-08-31-04-45-44",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+INFO:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+DEBUG:openai:api_version=None data='{"model": "davinci:ft-personal-2022-08-30-21-57-22", "max_tokens": 31, "top_p": 0.95, "temperature": 1, "prompt": "borges", "echo": true}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 401
+INFO:openai:message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=927 request_id=37f7936d7ef31436453f845ae419c29f response_code=200
+INFO:__main__:event=b'Completion' model=b'davinci:ft-personal-2022-08-30-21-57-22' prompt=b'borges' data=<OpenAIObject text_completion id=cmpl-5qqgg84UeXjJz3iZUhW9cje1mspQI at 0x11a166610> JSON: {
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "borges\n\nsan francisco bay area\n\ncalifornia\n\nsilicon valley\n\npacific city\n\nredwood city\n\nGoogle Stanford"
+    }
+  ],
+  "created": 1663277270,
+  "id": "cmpl-5qqgg84UeXjJz3iZUhW9cje1mspQI",
+  "model": "davinci:ft-personal-2022-08-30-21-57-22",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 31,
+    "prompt_tokens": 2,
+    "total_tokens": 33
+  }
+}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api-inference.huggingface.co:443
+DEBUG:urllib3.connectionpool:https://api-inference.huggingface.co:443 "POST /pipeline/feature-extraction/bert-base-uncased HTTP/1.1" 200 766711
