@@ -45,13 +45,13 @@ matplotlib.rcParams.update({'font.size': 4})
 
 # THESE API KEYS NO LONGER VALID
 # # configure openai client
-# openai.organization = ('org-UQAqGjWYD9fRg5PJebJV7gkt')
+# openai.organization = ('org-')
 # # TODO: store env variables elsewhere
-# openai.api_key = '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'
+# openai.api_key = 'sk-'
 
 # # configure huggingface
 # api_url = f"https://api-inference.huggingface.co/pipeline/feature-extraction/bert-base-uncased"
-# headers = {"Authorization": f"Bearer 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"}
+# headers = {"Authorization": f"Bearer "}
 
 def parse_prompts(filename):
     words = []
